@@ -1,0 +1,65 @@
+from sqlalchemy import Column, String, Integer, DateTime, Float, ForeignKey  # SQLAlchemy column types and foreign key
+from sqlalchemy.orm import relationship  # ORM relationship helper for model relations
+from datetime import datetime  # standard library datetime for timestamps/defaults
+from model import Base  # declarative Base class for SQLAlchemy models
+
+class HydrogenGenerator(Base):
+    __tablename__ = 'hydrogen_generators'  # Name of the database table for this model
+
+    # Primary Key
+    id = Column("pk_generator", Integer, primary_key=True) 
+    serial_number = Column(String(50), unique=True, nullable=False) 
+    
+    # --- Acquisition & Relationship ---
+    # Specifies if the unit is 'Leased' or 'Purchased'
+    acquisition_type = Column(String(20), nullable=False) 
+    
+    # The Physical link to the customer table
+    customer_id = Column(Integer, ForeignKey("customers.pk_customer"), nullable=False)
+
+    # The Logical link back to the Customer object
+    customer = relationship("Customer", back_populates="generators")
+
+    # Type of hardware (e.g., "Stationary", "Mobile", "Testing-Unit")
+    type = Column(String(50), nullable=False)
+
+    # --- Fuel Cell Stack Metrics ---
+    stack_voltage_total = Column(Float) # Measured in Volts
+    stack_voltage_per_cell = Column(Float) # Calculated per-cell performance
+    stack_current_density = Column(Float) # Measured in A/cm²
+    amount_of_cells = Column(Integer) # Total number of cells in the stack
+    
+    # --- Thermal Management ---
+    coolant_inlet_temp = Column(Float)    # Measured in °C
+    coolant_outlet_temp = Column(Float)   # Measured in °C
+    
+    # --- Fluid Dynamics & Supply ---
+    h2_supply_pressure = Column(Float)    # Measured in kPa
+    air_mass_flow_rate = Column(Float)    # Measured in kg/s
+    
+    # Metadata
+    last_updated = Column(DateTime, default=datetime.now, onupdate=datetime.now)
+
+    def __init__(self, serial_number: str, acquisition_type: str, type: str, 
+                 amount_of_cells: int, stack_voltage_total: float, 
+                 stack_current_density: float, h2_supply_pressure: float,
+                 air_mass_flow_rate: float, coolant_inlet: float, coolant_outlet: float):
+        """
+        Initializes a Hydrogen Generator record with technical metrics and acquisition status.
+        """
+        self.serial_number = serial_number
+        self.acquisition_type = acquisition_type
+        self.type = type
+        self.amount_of_cells = amount_of_cells
+        self.stack_voltage_total = stack_voltage_total
+        self.stack_current_density = stack_current_density
+        self.h2_supply_pressure = h2_supply_pressure
+        self.air_mass_flow_rate = air_mass_flow_rate
+        self.coolant_inlet_temp = coolant_inlet
+        self.coolant_outlet_temp = coolant_outlet
+        
+        # Calculate per-cell voltage automatically during initialization
+        if self.amount_of_cells is not None and self.amount_of_cells > 0:
+            self.stack_voltage_per_cell = stack_voltage_total / self.amount_of_cells
+        else:
+            self.stack_voltage_per_cell = 0.0
