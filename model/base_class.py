@@ -1,6 +1,4 @@
 from sqlalchemy.ext.declarative import declarative_base
-from base_class import Base
-from sqlalchemy import Column, Integer, String
 """
 Provides the shared SQLAlchemy declarative base for all ORM (Object-Relational Mapping) model classes.
 This module creates and exports a single `Base` object by calling

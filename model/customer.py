@@ -1,7 +1,8 @@
 from sqlalchemy import Column, String, Integer, DateTime  # Column defines table fields; String/Integer/DateTime are SQL types
-from sqlalchemy.orm import relationship                   # relationship declares ORM relationships between models
-from datetime import datetime                             # datetime used for timestamps/defaults
-from model import Base                                    # Base is the declarative base class for ORM models
+from sqlalchemy.orm import relationship  # relationship declares ORM relationships between models
+from datetime import datetime  # datetime used for timestamps/defaults
+from model import Base # Base is the declarative base class for ORM models
+                               
 
 class Customer(Base):
     """Represents a customer (company or individual) that may own hydrogen generators."""
@@ -21,9 +22,12 @@ class Customer(Base):
     # Prefer passing the callable (datetime.utcnow) or using SQLAlchemy's server_default.
     registration_date = Column(DateTime, default=datetime.now())
 
-    # One-to-many relationship: a single customer can have multiple generators.
-    # back_populates keeps the bidirectional link in sync; cascade ensures
-    # generators are removed when their owning customer is deleted.
+    # One-to-many ORM relationship: a Customer can own multiple HydrogenGenerator objects.
+    # - Uses the class name string to avoid circular imports between models.
+    # - back_populates keeps the bidirectional attribute (HydrogenGenerator.customer) in sync.
+    # - cascade="all, delete-orphan" propagates persistence operations (insert/update/delete/etc.)
+    #   to child generators and automatically removes DB rows for generators dropped from this collection.
+    # - The attribute is a list-like collection managed by SQLAlchemy.
     generators = relationship(
         "HydrogenGenerator",
         back_populates="customer",
