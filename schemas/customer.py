@@ -1,37 +1,67 @@
-from pydantic import BaseModel, EmailStr, Field
-from typing import Optional, List
-from datetime import datetime
-# We import the Generator schema to show nested data in the view
-from schemas.hydrogen_generator import HydrogenGeneratorViewSchema
+from typing import Any, List
+
+from pydantic import BaseModel, EmailStr
+
 
 class CustomerSchema(BaseModel):
-    """ Defines how a new customer should be represented/created for creation.
-    """
-    name: str = Field(..., example="H2 Energy Corp")
-    email: EmailStr = Field(..., example="contact@h2energy.com")
-    tax_id: Optional[str] = Field(None, example="12-3456789")
+    """Define os dados esperados para criação/edição de um customer."""
+
+    name: str
+    email: EmailStr
+    tx_id: str
+
 
 class CustomerSearchSchema(BaseModel):
-    """ Used to find a customer by their unique email.
-    """
-    name: str = "H2 Energy Corp"
+    """Define os campos para busca de um customer por ID."""
+
+    customer_id: int = 1
+
 
 class CustomerViewSchema(BaseModel):
-    """ Defines the structure for returning customer data.
-    """
-    id: int = 1
+    """Define a estrutura de retorno de um customer."""
+
+    customer_id: int
     name: str
     email: str
-    tax_id: Optional[str]
-    registration_date: datetime
+    tx_id: str
 
-class CustomerFullViewSchema(CustomerViewSchema):
-    """ 
-    A 'Deep' schema that includes all generators owned by the customer.
-    """
-    generators: List[HydrogenGeneratorViewSchema] = []
 
 class CustomerListSchema(BaseModel):
-    """ Returns a list of all customers.
-    """
+    """Define a estrutura de retorno para listagem de customers."""
+
     customers: List[CustomerViewSchema]
+
+
+class CustomerDeleteSchema(BaseModel):
+    """Define a estrutura de confirmação de remoção de customer."""
+
+    message: str
+    customer_id: int
+
+
+def apresenta_customer(customer: Any) -> dict[str, Any]:
+    """Retorna a representação de um customer."""
+
+    return {
+        "customer_id": customer.customer_id,
+        "name": customer.name,
+        "email": customer.email,
+        "tx_id": customer.tx_id,
+    }
+
+
+def apresenta_customers(customers: list[Any]) -> dict[str, list[dict[str, Any]]]:
+    """Retorna a representação de uma lista de customers."""
+
+    result: list[dict[str, Any]] = []
+    for customer in customers:
+        result.append(
+            {
+                "customer_id": customer.customer_id,
+                "name": customer.name,
+                "email": customer.email,
+                "tx_id": customer.tx_id,
+            }
+        )
+
+    return {"customers": result}

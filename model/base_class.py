@@ -1,12 +1,10 @@
-from sqlalchemy.ext.declarative import declarative_base
 """
-Provides the shared SQLAlchemy declarative base for all ORM (Object-Relational Mapping) model classes.
-This module creates and exports a single `Base` object by calling
-`sqlalchemy.ext.declarative.declarative_base()`. Import and subclass this
-`Base` in the model to define mapped classes (database tables). Using
-one central declarative base ensures all models share the same metadata and
-can be collectively managed for tasks such as creating tables, running
-migrations, and reflecting schema.
+Provides the shared SQLAlchemy declarative base for all ORM model classes.
+
+This module exports a single `Base` class for all mapped models in the
+application. Using one central declarative base ensures all models share the
+same metadata and can be managed together for table creation and migrations.
+
 Example:
     class User(Base):
         __tablename__ = "users"
@@ -14,4 +12,8 @@ Example:
         name = Column(String, nullable=False)
 """
 
-Base = declarative_base()
+from sqlalchemy.orm import DeclarativeBase
+
+
+class Base(DeclarativeBase):
+    pass

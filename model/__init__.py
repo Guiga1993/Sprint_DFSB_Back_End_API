@@ -1,40 +1,57 @@
 """
-Database initialization for the application.
+This module initializes the application's database using SQLAlchemy.
+Key responsibilities:
+- Ensures the existence of a local directory for storing the SQLite database file.
+- Configures the SQLAlchemy engine and session factory for database connections.
+- Checks for the existence of the database file and creates it if missing.
+- Imports all model classes so their tables are registered with SQLAlchemy's Base metadata.
+- Automatically creates all tables defined in the model metadata if they do not already exist in the database.
+Exports:
+- Base: The declarative base class for all models.
+- Customer, CustomerGeneratorAsset, HydrogenGenerator: Model classes representing database tables.
+- engine: The shared SQLAlchemy engine instance.
+- session_factory: Factory for creating new database sessions.
 
-Creates the local directory for the SQLite file, initializes the SQLAlchemy
-engine and session factory, creates the database if missing, and ensures all
-tables defined on the Base metadata exist.
 """
 
 import os
-from sqlalchemy_utils import database_exists, create_database
+
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+from sqlalchemy_utils import create_database, database_exists  # type: ignore
 
-# import model definitions
 from model.base_class import Base
-from model.hydrogen_generator import HydrogenGenerator
 from model.customer import Customer
+from model.customer_generator_asset import CustomerGeneratorAsset
+from model.hydrogen_generator import HydrogenGenerator
 
-# Directory where the SQLite database file will be stored
+# Import model classes so SQLAlchemy registers their tables in Base.metadata.
+
 DB_DIR = "database"
 
-# Ensure the database directory exists
 if not os.path.exists(DB_DIR):
+    # Create the local folder used to store the SQLite database file.
     os.makedirs(DB_DIR, exist_ok=True)
 
-# SQLite database URL (local file)
+# SQLite database path stored inside the project database directory.
 DB_URL = f"sqlite:///{DB_DIR}/db.sqlite3"
 
-# Create the SQLAlchemy engine
+# Shared engine used by the application to connect to the database.
 engine = create_engine(DB_URL, echo=False)
 
-# Session factory for creating new Session objects
+# Factory for creating new database sessions when handling requests.
 session_factory = sessionmaker(bind=engine)
 
-# Create the database if it does not exist
+# Create the database file if it does not exist yet.
 if not database_exists(engine.url):
     create_database(engine.url)
 
-# Create all tables defined on the Base metadata (if missing)
+# Create all mapped tables that are not yet present in the database.
 Base.metadata.create_all(engine)
+
+__all__ = [
+    "Base",
+    "Customer",
+    "CustomerGeneratorAsset",
+    "HydrogenGenerator",
+]
