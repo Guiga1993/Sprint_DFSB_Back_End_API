@@ -1,40 +1,70 @@
-from typing import Any, List
+from typing import Annotated, Any, List
 
-from pydantic import BaseModel, EmailStr
+from pydantic import BaseModel, EmailStr, Field, StringConstraints, field_validator
+import re
+
+# Reusable type alias: enforces name length between 2 and 150 characters,
+# matching the database column constraint (String(150)).
+NonEmptyName = Annotated[str, StringConstraints(min_length=2, max_length=150)]
 
 
-# Defines the expected data for customer creation/update.
+# ---------- Input Schema ----------
+# Validates the request body when creating a new customer (POST /customer).
 class CustomerSchema(BaseModel):
-    name: str
+    # Must be 2-150 chars; whitespace-only values are rejected by the validator below.
+    name: NonEmptyName
+    # Pydantic EmailStr validates RFC-compliant email format automatically.
     email: EmailStr
-    tx_id: int
+    # Fiscal identifier; must follow the format 000-00-0000 (digits and dashes).
+    tx_id: str = Field(min_length=11, max_length=11)
+
+    @field_validator("name")
+    @classmethod
+    def validate_name(cls, value: str) -> str:
+        """Strip leading/trailing whitespace and reject blank names."""
+        normalized = value.strip()
+        if not normalized:
+            raise ValueError("name must not be empty")
+        return normalized
+
+    @field_validator("tx_id")
+    @classmethod
+    def validate_tx_id(cls, value: str) -> str:
+        """Ensure tx_id matches the required format: 000-00-0000."""
+        if not re.fullmatch(r"\d{3}-\d{2}-\d{4}", value):
+            raise ValueError("tx_id must follow the format 000-00-0000")
+        return value
 
 
-# Defines the fields used to search for a customer by ID.
+# ---------- Query Schema ----------
+# Validates the query parameter used to fetch or delete a single customer.
 class CustomerSearchSchema(BaseModel):
-    customer_id: int = 1
+    # Must be a positive integer referencing an existing customer PK.
+    customer_id: int = Field(default=1, gt=0)
 
 
-# Defines the response structure for a customer.
+# ---------- Response Schemas ----------
+# Describes the JSON shape returned for a single customer.
 class CustomerViewSchema(BaseModel):
     customer_id: int
     name: str
     email: str
-    tx_id: int
+    tx_id: str
 
 
-# Defines the response structure for listing customers.
+# Wraps a list of CustomerViewSchema for the GET /customers endpoint.
 class CustomerListSchema(BaseModel):
     customers: List[CustomerViewSchema]
 
 
-# Defines the confirmation response structure for customer deletion.
+# Returned after a successful DELETE /customer operation.
 class CustomerDeleteSchema(BaseModel):
     message: str
     customer_id: int
 
 
-# Returns the serialized representation of a customer.
+# ---------- Serialization Helpers ----------
+# Converts a Customer ORM object into a plain dict for JSON responses.
 def get_customer(customer: Any) -> dict[str, Any]:
     return {
         "customer_id": customer.customer_id,
@@ -44,7 +74,7 @@ def get_customer(customer: Any) -> dict[str, Any]:
     }
 
 
-# Returns the serialized representation of a customer list.
+# Converts a list of Customer ORM objects into the shape expected by CustomerListSchema.
 def get_customers(customers: list[Any]) -> dict[str, list[dict[str, Any]]]:
     result: list[dict[str, Any]] = []
     for customer in customers:
@@ -58,7 +88,3 @@ def get_customers(customers: list[Any]) -> dict[str, list[dict[str, Any]]]:
         )
 
     return {"customers": result}
-
-
-apresenta_customer = get_customer
-apresenta_customers = get_customers
