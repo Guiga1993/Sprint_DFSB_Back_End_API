@@ -3,45 +3,39 @@ from typing import Any, List
 from pydantic import BaseModel, EmailStr
 
 
+# Defines the expected data for customer creation/update.
 class CustomerSchema(BaseModel):
-    """Define os dados esperados para criação/edição de um customer."""
-
     name: str
     email: EmailStr
-    tx_id: str
+    tx_id: int
 
 
+# Defines the fields used to search for a customer by ID.
 class CustomerSearchSchema(BaseModel):
-    """Define os campos para busca de um customer por ID."""
-
     customer_id: int = 1
 
 
+# Defines the response structure for a customer.
 class CustomerViewSchema(BaseModel):
-    """Define a estrutura de retorno de um customer."""
-
     customer_id: int
     name: str
     email: str
-    tx_id: str
+    tx_id: int
 
 
+# Defines the response structure for listing customers.
 class CustomerListSchema(BaseModel):
-    """Define a estrutura de retorno para listagem de customers."""
-
     customers: List[CustomerViewSchema]
 
 
+# Defines the confirmation response structure for customer deletion.
 class CustomerDeleteSchema(BaseModel):
-    """Define a estrutura de confirmação de remoção de customer."""
-
     message: str
     customer_id: int
 
 
-def apresenta_customer(customer: Any) -> dict[str, Any]:
-    """Retorna a representação de um customer."""
-
+# Returns the serialized representation of a customer.
+def get_customer(customer: Any) -> dict[str, Any]:
     return {
         "customer_id": customer.customer_id,
         "name": customer.name,
@@ -50,9 +44,8 @@ def apresenta_customer(customer: Any) -> dict[str, Any]:
     }
 
 
-def apresenta_customers(customers: list[Any]) -> dict[str, list[dict[str, Any]]]:
-    """Retorna a representação de uma lista de customers."""
-
+# Returns the serialized representation of a customer list.
+def get_customers(customers: list[Any]) -> dict[str, list[dict[str, Any]]]:
     result: list[dict[str, Any]] = []
     for customer in customers:
         result.append(
@@ -65,3 +58,7 @@ def apresenta_customers(customers: list[Any]) -> dict[str, list[dict[str, Any]]]
         )
 
     return {"customers": result}
+
+
+apresenta_customer = get_customer
+apresenta_customers = get_customers

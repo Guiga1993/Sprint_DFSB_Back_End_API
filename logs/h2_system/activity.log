@@ -1,0 +1,442 @@
+[2026-03-15 16:26:24] INFO    werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-03-15 16:26:24] INFO    werkzeug: [33mPress CTRL+C to quit[0m
+[2026-03-15 16:26:24] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 16:26:25] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 16:26:25] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 16:27:19] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 16:27:19] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 16:27:57] INFO    werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-03-15 16:27:57] INFO    werkzeug: [33mPress CTRL+C to quit[0m
+[2026-03-15 16:27:57] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 16:27:58] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 16:27:58] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 16:28:18] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 16:28:18] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-03-15 16:28:18] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 16:28:18] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-15 16:32:33] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 16:32:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2026-03-15 16:34:30] INFO    werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-03-15 16:34:30] INFO    werkzeug: [33mPress CTRL+C to quit[0m
+[2026-03-15 16:34:30] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 16:34:31] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 16:34:31] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 16:34:47] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 16:34:47] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-15 16:34:47] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 16:34:47] "GET /openapi/redoc/images/redoc.svg HTTP/1.1" 200 -
+[2026-03-15 16:34:47] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 16:34:47] "GET /openapi/swagger/images/swagger.svg HTTP/1.1" 200 -
+[2026-03-15 16:34:47] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 16:34:47] "GET /openapi/rapidoc/images/rapidoc.svg HTTP/1.1" 200 -
+[2026-03-15 16:34:52] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 16:34:52] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 16:34:52] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 16:34:52] "GET /openapi/swagger/css/swagger-ui.css HTTP/1.1" 200 -
+[2026-03-15 16:34:52] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 16:34:52] "GET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1" 200 -
+[2026-03-15 16:34:52] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 16:34:52] "GET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+[2026-03-15 16:34:53] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 16:34:53] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 16:42:07] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 16:42:07] "[31m[1mPOST /customer HTTP/1.1[0m" 422 -
+[2026-03-15 17:24:49] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 17:24:49] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 17:24:50] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 17:24:50] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 17:25:19] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\model\\customer.py', reloading
+[2026-03-15 17:25:19] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 17:25:20] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 17:25:20] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 17:25:25] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 17:25:25] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 17:25:26] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 17:25:26] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 17:25:53] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:25:53] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 17:25:53] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:25:53] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:25:53] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:25:53] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 17:25:53] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:25:53] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:25:54] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:25:54] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 17:26:23] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:26:23] "POST /customer HTTP/1.1" 200 -
+[2026-03-15 17:29:38] INFO    werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-03-15 17:29:38] INFO    werkzeug: [33mPress CTRL+C to quit[0m
+[2026-03-15 17:29:38] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 17:29:39] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 17:29:39] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 17:29:46] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:29:46] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-15 17:29:47] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:29:47] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-03-15 17:29:47] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:29:47] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-15 17:29:47] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:29:47] "[36mGET /openapi/swagger/images/swagger.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:29:47] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:29:47] "[36mGET /openapi/rapidoc/images/rapidoc.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:29:47] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:29:47] "[36mGET /openapi/redoc/images/redoc.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:29:48] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:29:48] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 17:29:48] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:29:48] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:29:48] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:29:48] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:29:48] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:29:48] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 17:29:48] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:29:48] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 17:34:20] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:34:20] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-15 17:34:20] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:34:20] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-03-15 17:34:20] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:34:20] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-15 17:34:22] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:34:22] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-15 17:34:22] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:34:22] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-03-15 17:34:22] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:34:22] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-15 17:34:26] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:34:26] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-15 17:34:26] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:34:26] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-03-15 17:34:26] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:34:26] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-15 17:34:30] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:34:30] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-15 17:34:30] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:34:30] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-03-15 17:34:30] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:34:30] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-15 17:35:21] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:35:21] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-15 17:35:21] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:35:21] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-03-15 17:35:21] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:35:21] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-15 17:35:21] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:35:21] "[36mGET /openapi/rapidoc/images/rapidoc.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:35:21] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:35:21] "[36mGET /openapi/redoc/images/redoc.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:35:21] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:35:21] "[36mGET /openapi/swagger/images/swagger.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:35:32] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:35:32] "GET /openapi/rapidoc HTTP/1.1" 200 -
+[2026-03-15 17:35:32] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:35:32] "GET /openapi/rapidoc/js/rapidoc-min.js HTTP/1.1" 200 -
+[2026-03-15 17:35:32] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:35:32] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 17:35:38] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:35:38] "GET /openapi/redoc HTTP/1.1" 200 -
+[2026-03-15 17:35:38] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:35:38] "GET /openapi/redoc/js/redoc.standalone.js HTTP/1.1" 200 -
+[2026-03-15 17:35:38] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:35:38] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 17:36:38] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:36:38] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-15 17:36:38] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:36:38] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-03-15 17:36:38] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:36:38] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-15 17:36:38] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:36:38] "[36mGET /openapi/rapidoc/images/rapidoc.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:36:38] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:36:38] "[36mGET /openapi/redoc/images/redoc.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:36:38] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:36:38] "[36mGET /openapi/swagger/images/swagger.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:38:51] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 17:38:51] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 17:38:52] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 17:38:52] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 17:38:54] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:38:54] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 17:38:55] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:38:55] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:38:55] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:38:55] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:38:55] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:38:55] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 17:38:55] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:38:55] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 17:39:02] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:39:02] "GET / HTTP/1.1" 200 -
+[2026-03-15 17:39:08] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:39:08] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 17:39:08] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:39:08] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:39:08] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:39:08] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:39:08] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:39:08] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 17:39:08] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:39:08] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 17:39:27] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:39:27] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 17:39:27] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:39:27] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:39:27] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:39:27] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:39:27] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:39:27] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 17:39:27] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:39:27] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 17:39:42] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 17:39:42] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 17:39:43] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 17:39:43] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 17:41:21] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 17:41:21] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 17:41:22] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 17:41:22] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 17:41:30] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 17:41:30] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 17:41:31] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 17:41:31] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 17:41:32] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 17:41:32] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 17:41:33] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 17:41:33] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 17:41:36] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 17:41:36] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 17:41:37] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 17:41:37] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 17:41:43] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 17:41:43] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 17:41:44] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 17:41:44] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 17:41:50] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:41:50] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-15 17:41:50] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:41:50] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-03-15 17:41:50] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:41:50] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-15 17:41:50] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:41:50] "[36mGET /openapi/redoc/images/redoc.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:41:50] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:41:50] "[36mGET /openapi/swagger/images/swagger.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:41:50] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:41:50] "[36mGET /openapi/rapidoc/images/rapidoc.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:41:55] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:41:55] "GET /openapi/redoc HTTP/1.1" 200 -
+[2026-03-15 17:41:55] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:41:55] "[36mGET /openapi/redoc/js/redoc.standalone.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:41:55] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:41:55] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 17:41:57] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:41:57] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 17:41:57] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:41:57] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:41:57] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:41:57] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:41:57] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:41:57] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 17:41:57] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:41:57] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 17:42:20] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 17:42:20] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 17:42:21] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 17:42:21] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 17:42:29] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 17:42:29] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 17:42:30] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 17:42:30] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 17:42:39] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 17:42:39] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 17:42:40] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 17:42:40] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 17:44:23] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:44:23] "POST /customer HTTP/1.1" 200 -
+[2026-03-15 17:45:03] WARNING H2_Generator_API: Erro ao deletar customer '3': Customer não encontrado na base :/
+[2026-03-15 17:45:03] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:45:03] "[33mDELETE /customer?customer_id=3 HTTP/1.1[0m" 404 -
+[2026-03-15 17:45:26] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:45:26] "DELETE /customer?customer_id=2 HTTP/1.1" 200 -
+[2026-03-15 17:45:38] WARNING H2_Generator_API: Erro ao deletar customer '2': Customer não encontrado na base :/
+[2026-03-15 17:45:38] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:45:38] "[33mDELETE /customer?customer_id=2 HTTP/1.1[0m" 404 -
+[2026-03-15 17:45:57] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:45:57] "GET /customer?customer_id=1 HTTP/1.1" 200 -
+[2026-03-15 17:46:12] WARNING H2_Generator_API: Erro ao buscar customer '2': Customer não encontrado na base :/
+[2026-03-15 17:46:12] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:46:12] "[33mGET /customer?customer_id=2 HTTP/1.1[0m" 404 -
+[2026-03-15 17:46:36] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:46:36] "POST /customer HTTP/1.1" 200 -
+[2026-03-15 17:46:53] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:46:53] "GET /customers HTTP/1.1" 200 -
+[2026-03-15 17:49:38] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:49:38] "POST /hydrogen-generator HTTP/1.1" 200 -
+[2026-03-15 17:51:14] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:51:14] "POST /hydrogen-generator HTTP/1.1" 200 -
+[2026-03-15 17:52:18] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:52:18] "GET /hydrogen-generator?serial_number=GEN-9000 HTTP/1.1" 200 -
+[2026-03-15 17:52:29] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:52:29] "GET /hydrogen-generator?serial_number=GEN-8000 HTTP/1.1" 200 -
+[2026-03-15 17:54:07] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:54:07] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-15 17:55:29] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 17:55:29] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 17:57:29] INFO    werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-03-15 17:57:29] INFO    werkzeug: [33mPress CTRL+C to quit[0m
+[2026-03-15 17:57:29] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 17:57:30] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 17:57:30] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 17:57:32] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:57:32] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 17:57:33] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:57:33] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:57:33] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:57:33] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:57:33] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:57:33] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 17:57:33] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:57:33] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 17:57:43] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:57:43] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-15 17:58:49] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:58:49] "DELETE /hydrogen-generator?serial_number=GEN-9000 HTTP/1.1" 200 -
+[2026-03-15 17:58:56] WARNING H2_Generator_API: Erro ao deletar hydrogen generator 'GEN-9001': Hydrogen generator não encontrado na base :/
+[2026-03-15 17:58:56] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 17:58:56] "[33mDELETE /hydrogen-generator?serial_number=GEN-9001 HTTP/1.1[0m" 404 -
+[2026-03-15 18:04:01] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:04:02] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:04:03] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:04:03] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:04:19] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:04:19] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:04:20] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:04:20] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:04:34] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:04:34] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:04:35] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:04:35] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:04:36] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:04:36] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 18:04:36] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:04:36] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:04:37] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:04:37] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 18:04:37] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:04:37] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:04:37] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:04:37] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 18:04:38] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:04:38] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 18:04:38] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:04:38] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:04:38] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:04:38] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:04:38] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:04:38] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 18:04:38] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:04:38] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 18:05:40] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:05:40] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:05:41] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:05:41] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:05:41] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:05:41] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 18:05:41] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:05:41] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 18:05:41] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:05:41] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:05:41] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:05:41] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:05:42] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:05:42] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 18:06:14] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:06:14] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:06:15] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:06:15] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:06:17] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:06:17] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:06:18] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:06:18] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:06:59] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:06:59] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:07:00] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:07:00] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:07:05] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:07:05] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:07:06] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:07:06] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:07:30] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:07:30] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:07:31] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:07:31] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:07:37] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:07:38] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:07:38] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:07:38] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:07:53] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:07:53] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:07:54] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:07:54] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:08:32] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:08:32] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:08:33] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:08:33] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:09:37] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:09:37] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:09:38] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:09:38] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:09:57] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:09:57] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:09:58] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:09:58] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:10:07] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:10:07] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:10:08] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:10:08] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:10:28] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:10:28] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:10:29] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:10:29] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:10:37] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:10:37] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:10:38] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:10:38] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:10:40] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:10:40] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 18:10:41] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:10:41] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:10:41] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:10:41] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:10:41] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:10:41] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 18:10:41] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:10:41] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 18:10:57] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:10:57] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 18:10:57] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:10:57] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:10:57] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:10:57] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:10:57] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:10:57] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 18:10:57] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:10:57] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 18:11:14] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:11:15] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:11:16] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:11:16] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:11:16] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:11:16] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 18:11:17] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:11:17] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:11:17] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:11:17] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 18:11:17] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:11:17] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:11:17] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:11:17] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 18:11:33] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:11:33] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:11:34] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:11:34] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:11:43] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:11:43] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:11:44] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:11:44] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:11:44] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:11:44] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 18:11:45] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:11:45] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 18:11:45] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:11:45] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:11:45] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:11:45] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:11:45] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:11:45] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 18:12:08] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:12:08] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:12:09] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:12:09] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:13:01] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:13:02] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:13:03] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:13:03] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:13:09] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:13:09] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:13:10] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:13:10] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:13:55] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:13:56] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:13:57] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:13:57] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:13:58] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:13:58] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:13:59] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:13:59] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:14:12] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:14:12] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:14:13] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:14:13] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:14:16] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:14:16] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 18:14:16] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:14:16] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:14:16] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:14:16] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:14:16] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:14:16] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 18:14:16] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:14:16] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 18:14:41] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:14:42] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:14:43] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:14:43] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:14:43] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:14:43] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 18:14:43] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:14:43] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 18:14:43] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:14:43] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:14:43] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:14:43] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:14:43] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:14:43] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 18:15:13] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:15:13] "[35m[1mGET /customer?customer_id=1 HTTP/1.1[0m" 500 -
+[2026-03-15 18:15:25] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:15:25] "[35m[1mGET /customer?customer_id=1 HTTP/1.1[0m" 500 -
+[2026-03-15 18:15:46] INFO    werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-03-15 18:15:46] INFO    werkzeug: [33mPress CTRL+C to quit[0m
+[2026-03-15 18:15:46] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:15:47] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:15:47] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:16:41] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:16:41] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:16:42] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:16:42] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:16:45] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:16:45] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:16:46] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:16:46] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:16:48] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:16:48] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 18:16:48] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:16:48] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 18:16:48] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:16:48] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:16:48] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:16:48] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:16:49] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:16:49] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 18:16:54] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:16:54] "GET /customer?customer_id=1 HTTP/1.1" 200 -
+[2026-03-15 18:17:05] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:17:05] "GET /customer?customer_id=2 HTTP/1.1" 200 -
+[2026-03-15 18:17:14] INFO    werkzeug: 127.0.0.1 - - [15/Mar/2026 18:17:14] "GET /customers HTTP/1.1" 200 -
+[2026-03-15 18:18:24] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:18:24] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:18:25] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:18:25] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:19:04] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:19:04] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:19:05] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:19:05] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:19:12] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:19:12] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:19:13] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:19:13] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:20:17] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:20:17] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:20:18] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:20:18] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:20:37] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:20:37] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:20:38] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:20:38] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:20:45] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:20:46] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:20:47] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:20:47] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:22:38] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\hydrogen_generator.py', reloading
+[2026-03-15 18:22:38] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:22:39] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:22:39] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:22:47] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer_generator_asset.py', reloading
+[2026-03-15 18:22:47] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:22:48] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:22:48] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:22:53] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\error.py', reloading
+[2026-03-15 18:22:54] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:22:55] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:22:55] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:23:21] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer_generator_asset.py', reloading
+[2026-03-15 18:23:21] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:23:22] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:23:22] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:23:58] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\hydrogen_generator.py', reloading
+[2026-03-15 18:23:58] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:23:59] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:23:59] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:24:04] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\error.py', reloading
+[2026-03-15 18:24:04] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:24:05] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:24:05] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:24:49] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\error.py', reloading
+[2026-03-15 18:24:49] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:24:50] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:24:50] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:26:00] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:26:01] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:26:02] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:26:02] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:26:25] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:26:25] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:26:26] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:26:26] INFO    werkzeug:  * Debugger PIN: 696-417-809
+[2026-03-15 18:26:31] INFO    werkzeug:  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:26:31] INFO    werkzeug:  * Restarting with stat
+[2026-03-15 18:26:32] WARNING werkzeug:  * Debugger is active!
+[2026-03-15 18:26:32] INFO    werkzeug:  * Debugger PIN: 696-417-809

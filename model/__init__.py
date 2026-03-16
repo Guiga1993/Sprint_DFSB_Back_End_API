@@ -18,7 +18,7 @@ import os
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from sqlalchemy_utils import create_database, database_exists  # type: ignore
+from sqlalchemy_utils import create_database, database_exists
 
 from model.base_class import Base
 from model.customer import Customer

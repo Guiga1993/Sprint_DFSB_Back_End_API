@@ -12,7 +12,7 @@ class Customer(Base):
     email: Mapped[str] = mapped_column(String(100), unique=True, nullable=False)
     tx_id: Mapped[str] = mapped_column(String(20), unique=True, nullable=False)
 
-    def __init__(self, name: str, email: str, tx_id: str):
+    def __init__(self, name: str, email: str, tx_id: int):
         """Cria um Customer.
 
         Arguments:

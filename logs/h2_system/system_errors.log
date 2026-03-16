@@ -1,0 +1,442 @@
+[2026-03-15 16:26:24,578] INFO    [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-03-15 16:26:24,579] INFO    [_internal.py:97] - [33mPress CTRL+C to quit[0m
+[2026-03-15 16:26:24,583] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 16:26:25,486] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 16:26:25,489] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 16:27:19,085] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 16:27:19,291] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 16:27:57,414] INFO    [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-03-15 16:27:57,414] INFO    [_internal.py:97] - [33mPress CTRL+C to quit[0m
+[2026-03-15 16:27:57,415] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 16:27:58,360] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 16:27:58,362] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 16:28:18,904] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 16:28:18] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-03-15 16:28:18,910] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 16:28:18] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-15 16:32:33,082] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 16:32:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2026-03-15 16:34:30,491] INFO    [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-03-15 16:34:30,491] INFO    [_internal.py:97] - [33mPress CTRL+C to quit[0m
+[2026-03-15 16:34:30,493] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 16:34:31,277] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 16:34:31,280] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 16:34:47,586] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 16:34:47] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-15 16:34:47,695] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 16:34:47] "GET /openapi/redoc/images/redoc.svg HTTP/1.1" 200 -
+[2026-03-15 16:34:47,696] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 16:34:47] "GET /openapi/swagger/images/swagger.svg HTTP/1.1" 200 -
+[2026-03-15 16:34:47,696] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 16:34:47] "GET /openapi/rapidoc/images/rapidoc.svg HTTP/1.1" 200 -
+[2026-03-15 16:34:52,917] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 16:34:52] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 16:34:52,936] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 16:34:52] "GET /openapi/swagger/css/swagger-ui.css HTTP/1.1" 200 -
+[2026-03-15 16:34:52,938] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 16:34:52] "GET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1" 200 -
+[2026-03-15 16:34:52,938] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 16:34:52] "GET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+[2026-03-15 16:34:53,071] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 16:34:53] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 16:42:07,684] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 16:42:07] "[31m[1mPOST /customer HTTP/1.1[0m" 422 -
+[2026-03-15 17:24:49,565] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 17:24:49,785] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 17:24:50,738] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 17:24:50,740] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 17:25:19,059] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\model\\customer.py', reloading
+[2026-03-15 17:25:19,235] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 17:25:20,135] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 17:25:20,137] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 17:25:25,212] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 17:25:25,392] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 17:25:26,254] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 17:25:26,257] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 17:25:53,764] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:25:53] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 17:25:53,878] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:25:53] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:25:53,881] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:25:53] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 17:25:53,882] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:25:53] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:25:54,032] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:25:54] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 17:26:23,055] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:26:23] "POST /customer HTTP/1.1" 200 -
+[2026-03-15 17:29:38,423] INFO    [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-03-15 17:29:38,423] INFO    [_internal.py:97] - [33mPress CTRL+C to quit[0m
+[2026-03-15 17:29:38,425] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 17:29:39,209] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 17:29:39,211] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 17:29:46,965] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:29:46] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-15 17:29:47,004] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:29:47] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-03-15 17:29:47,026] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:29:47] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-15 17:29:47,159] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:29:47] "[36mGET /openapi/swagger/images/swagger.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:29:47,160] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:29:47] "[36mGET /openapi/rapidoc/images/rapidoc.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:29:47,163] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:29:47] "[36mGET /openapi/redoc/images/redoc.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:29:48,682] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:29:48] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 17:29:48,702] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:29:48] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:29:48,702] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:29:48] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:29:48,703] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:29:48] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 17:29:48,864] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:29:48] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 17:34:20,337] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:34:20] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-15 17:34:20,347] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:34:20] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-03-15 17:34:20,352] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:34:20] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-15 17:34:22,557] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:34:22] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-15 17:34:22,565] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:34:22] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-03-15 17:34:22,570] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:34:22] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-15 17:34:26,403] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:34:26] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-15 17:34:26,411] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:34:26] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-03-15 17:34:26,417] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:34:26] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-15 17:34:30,549] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:34:30] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-15 17:34:30,556] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:34:30] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-03-15 17:34:30,562] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:34:30] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-15 17:35:21,096] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:35:21] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-15 17:35:21,109] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:35:21] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-03-15 17:35:21,131] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:35:21] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-15 17:35:21,158] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:35:21] "[36mGET /openapi/rapidoc/images/rapidoc.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:35:21,159] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:35:21] "[36mGET /openapi/redoc/images/redoc.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:35:21,163] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:35:21] "[36mGET /openapi/swagger/images/swagger.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:35:32,686] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:35:32] "GET /openapi/rapidoc HTTP/1.1" 200 -
+[2026-03-15 17:35:32,709] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:35:32] "GET /openapi/rapidoc/js/rapidoc-min.js HTTP/1.1" 200 -
+[2026-03-15 17:35:32,794] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:35:32] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 17:35:38,042] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:35:38] "GET /openapi/redoc HTTP/1.1" 200 -
+[2026-03-15 17:35:38,062] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:35:38] "GET /openapi/redoc/js/redoc.standalone.js HTTP/1.1" 200 -
+[2026-03-15 17:35:38,149] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:35:38] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 17:36:38,546] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:36:38] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-15 17:36:38,550] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:36:38] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-03-15 17:36:38,557] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:36:38] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-15 17:36:38,586] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:36:38] "[36mGET /openapi/rapidoc/images/rapidoc.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:36:38,587] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:36:38] "[36mGET /openapi/redoc/images/redoc.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:36:38,589] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:36:38] "[36mGET /openapi/swagger/images/swagger.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:38:51,280] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 17:38:51,459] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 17:38:52,464] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 17:38:52,467] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 17:38:54,916] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:38:54] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 17:38:55,028] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:38:55] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:38:55,032] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:38:55] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:38:55,035] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:38:55] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 17:38:55,207] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:38:55] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 17:39:02,860] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:39:02] "GET / HTTP/1.1" 200 -
+[2026-03-15 17:39:08,323] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:39:08] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 17:39:08,346] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:39:08] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:39:08,347] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:39:08] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:39:08,348] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:39:08] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 17:39:08,471] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:39:08] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 17:39:27,012] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:39:27] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 17:39:27,034] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:39:27] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:39:27,036] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:39:27] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:39:27,036] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:39:27] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 17:39:27,156] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:39:27] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 17:39:42,043] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 17:39:42,223] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 17:39:43,129] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 17:39:43,131] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 17:41:21,252] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 17:41:21,475] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 17:41:22,345] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 17:41:22,348] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 17:41:30,464] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 17:41:30,637] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 17:41:31,645] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 17:41:31,648] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 17:41:32,685] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 17:41:32,871] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 17:41:33,961] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 17:41:33,964] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 17:41:36,011] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 17:41:36,195] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 17:41:37,217] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 17:41:37,220] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 17:41:43,310] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 17:41:43,495] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 17:41:44,330] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 17:41:44,333] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 17:41:50,142] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:41:50] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-15 17:41:50,148] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:41:50] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-03-15 17:41:50,153] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:41:50] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-15 17:41:50,278] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:41:50] "[36mGET /openapi/redoc/images/redoc.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:41:50,282] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:41:50] "[36mGET /openapi/swagger/images/swagger.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:41:50,283] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:41:50] "[36mGET /openapi/rapidoc/images/rapidoc.svg HTTP/1.1[0m" 304 -
+[2026-03-15 17:41:55,009] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:41:55] "GET /openapi/redoc HTTP/1.1" 200 -
+[2026-03-15 17:41:55,023] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:41:55] "[36mGET /openapi/redoc/js/redoc.standalone.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:41:55,113] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:41:55] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 17:41:57,421] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:41:57] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 17:41:57,442] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:41:57] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:41:57,443] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:41:57] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:41:57,447] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:41:57] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 17:41:57,584] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:41:57] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 17:42:20,765] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 17:42:20,954] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 17:42:21,922] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 17:42:21,925] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 17:42:29,027] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 17:42:29,192] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 17:42:30,128] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 17:42:30,130] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 17:42:39,253] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 17:42:39,456] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 17:42:40,431] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 17:42:40,434] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 17:44:23,622] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:44:23] "POST /customer HTTP/1.1" 200 -
+[2026-03-15 17:45:03,935] WARNING [app.py:200] - Erro ao deletar customer '3': Customer não encontrado na base :/
+[2026-03-15 17:45:03,937] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:45:03] "[33mDELETE /customer?customer_id=3 HTTP/1.1[0m" 404 -
+[2026-03-15 17:45:26,738] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:45:26] "DELETE /customer?customer_id=2 HTTP/1.1" 200 -
+[2026-03-15 17:45:38,004] WARNING [app.py:200] - Erro ao deletar customer '2': Customer não encontrado na base :/
+[2026-03-15 17:45:38,006] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:45:38] "[33mDELETE /customer?customer_id=2 HTTP/1.1[0m" 404 -
+[2026-03-15 17:45:57,530] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:45:57] "GET /customer?customer_id=1 HTTP/1.1" 200 -
+[2026-03-15 17:46:12,056] WARNING [app.py:169] - Erro ao buscar customer '2': Customer não encontrado na base :/
+[2026-03-15 17:46:12,058] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:46:12] "[33mGET /customer?customer_id=2 HTTP/1.1[0m" 404 -
+[2026-03-15 17:46:36,414] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:46:36] "POST /customer HTTP/1.1" 200 -
+[2026-03-15 17:46:53,337] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:46:53] "GET /customers HTTP/1.1" 200 -
+[2026-03-15 17:49:38,662] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:49:38] "POST /hydrogen-generator HTTP/1.1" 200 -
+[2026-03-15 17:51:14,640] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:51:14] "POST /hydrogen-generator HTTP/1.1" 200 -
+[2026-03-15 17:52:18,453] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:52:18] "GET /hydrogen-generator?serial_number=GEN-9000 HTTP/1.1" 200 -
+[2026-03-15 17:52:29,828] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:52:29] "GET /hydrogen-generator?serial_number=GEN-8000 HTTP/1.1" 200 -
+[2026-03-15 17:54:07,251] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:54:07] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-15 17:55:29,650] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 17:55:29,853] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 17:57:29,562] INFO    [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-03-15 17:57:29,563] INFO    [_internal.py:97] - [33mPress CTRL+C to quit[0m
+[2026-03-15 17:57:29,564] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 17:57:30,388] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 17:57:30,391] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 17:57:32,967] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:57:32] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 17:57:33,144] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:57:33] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:57:33,151] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:57:33] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 17:57:33,151] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:57:33] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 17:57:33,309] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:57:33] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 17:57:43,573] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:57:43] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-15 17:58:49,741] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:58:49] "DELETE /hydrogen-generator?serial_number=GEN-9000 HTTP/1.1" 200 -
+[2026-03-15 17:58:56,136] WARNING [app.py:334] - Erro ao deletar hydrogen generator 'GEN-9001': Hydrogen generator não encontrado na base :/
+[2026-03-15 17:58:56,137] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 17:58:56] "[33mDELETE /hydrogen-generator?serial_number=GEN-9001 HTTP/1.1[0m" 404 -
+[2026-03-15 18:04:01,827] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:04:02,043] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:04:03,047] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:04:03,049] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:04:19,269] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:04:19,458] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:04:20,389] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:04:20,393] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:04:34,570] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:04:34,755] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:04:35,753] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:04:35,757] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:04:36,899] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:04:36] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 18:04:36,999] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:04:36] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:04:37,000] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:04:37] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 18:04:37,003] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:04:37] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:04:37,162] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:04:37] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 18:04:38,569] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:04:38] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 18:04:38,586] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:04:38] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:04:38,588] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:04:38] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:04:38,589] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:04:38] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 18:04:38,732] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:04:38] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 18:05:40,529] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:05:40,716] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:05:41,723] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:05:41,726] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:05:41,745] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:05:41] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 18:05:41,832] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:05:41] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 18:05:41,844] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:05:41] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:05:41,845] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:05:41] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:05:42,005] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:05:42] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 18:06:14,102] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:06:14,409] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:06:15,361] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:06:15,364] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:06:17,425] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:06:17,627] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:06:18,545] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:06:18,548] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:06:59,009] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:06:59,184] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:07:00,125] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:07:00,130] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:07:05,220] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:07:05,420] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:07:06,337] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:07:06,340] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:07:30,646] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:07:30,834] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:07:31,766] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:07:31,768] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:07:37,860] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:07:38,054] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:07:38,972] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:07:38,975] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:07:53,155] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:07:53,345] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:07:54,199] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:07:54,202] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:08:32,637] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:08:32,820] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:08:33,675] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:08:33,678] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:09:37,410] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:09:37,592] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:09:38,494] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:09:38,497] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:09:57,722] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:09:57,921] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:09:58,887] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:09:58,890] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:10:07,001] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:10:07,181] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:10:08,085] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:10:08,088] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:10:28,325] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:10:28,514] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:10:29,376] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:10:29,378] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:10:37,496] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:10:37,672] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:10:38,511] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:10:38,513] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:10:40,924] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:10:40] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 18:10:41,043] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:10:41] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:10:41,047] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:10:41] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:10:41,049] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:10:41] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 18:10:41,215] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:10:41] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 18:10:57,704] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:10:57] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 18:10:57,722] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:10:57] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:10:57,725] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:10:57] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:10:57,726] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:10:57] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 18:10:57,875] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:10:57] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 18:11:14,959] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:11:15,197] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:11:16,177] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:11:16,180] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:11:16,924] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:11:16] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 18:11:17,038] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:11:17] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:11:17,053] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:11:17] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 18:11:17,053] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:11:17] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:11:17,205] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:11:17] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 18:11:33,390] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:11:33,600] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:11:34,649] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:11:34,652] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:11:43,780] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:11:43,967] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:11:44,951] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:11:44,953] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:11:44,973] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:11:44] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 18:11:45,068] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:11:45] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 18:11:45,069] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:11:45] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:11:45,071] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:11:45] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:11:45,214] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:11:45] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 18:12:08,260] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:12:08,448] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:12:09,345] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:12:09,348] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:13:01,970] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:13:02,154] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:13:03,142] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:13:03,145] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:13:09,243] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:13:09,421] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:13:10,401] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:13:10,405] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:13:55,920] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:13:56,097] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:13:57,003] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:13:57,007] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:13:58,048] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:13:58,233] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:13:59,196] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:13:59,200] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:14:12,364] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:14:12,624] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:14:13,560] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:14:13,562] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:14:16,510] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:14:16] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 18:14:16,619] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:14:16] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:14:16,625] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:14:16] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:14:16,627] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:14:16] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 18:14:16,779] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:14:16] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 18:14:41,927] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:14:42,113] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:14:43,201] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:14:43,204] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:14:43,233] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:14:43] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 18:14:43,330] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:14:43] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 18:14:43,335] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:14:43] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:14:43,337] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:14:43] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:14:43,479] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:14:43] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 18:15:13,352] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:15:13] "[35m[1mGET /customer?customer_id=1 HTTP/1.1[0m" 500 -
+[2026-03-15 18:15:25,775] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:15:25] "[35m[1mGET /customer?customer_id=1 HTTP/1.1[0m" 500 -
+[2026-03-15 18:15:46,553] INFO    [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-03-15 18:15:46,554] INFO    [_internal.py:97] - [33mPress CTRL+C to quit[0m
+[2026-03-15 18:15:46,556] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:15:47,481] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:15:47,484] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:16:41,076] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:16:41,266] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:16:42,239] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:16:42,243] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:16:45,301] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:16:45,478] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:16:46,413] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:16:46,415] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:16:48,788] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:16:48] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-15 18:16:48,948] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:16:48] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-15 18:16:48,948] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:16:48] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:16:48,950] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:16:48] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-15 18:16:49,119] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:16:49] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-15 18:16:54,619] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:16:54] "GET /customer?customer_id=1 HTTP/1.1" 200 -
+[2026-03-15 18:17:05,993] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:17:05] "GET /customer?customer_id=2 HTTP/1.1" 200 -
+[2026-03-15 18:17:14,808] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 18:17:14] "GET /customers HTTP/1.1" 200 -
+[2026-03-15 18:18:24,517] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:18:24,700] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:18:25,713] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:18:25,716] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:19:04,134] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:19:04,320] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:19:05,282] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:19:05,286] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:19:12,391] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:19:12,602] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:19:13,448] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:19:13,451] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:20:17,167] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:20:17,404] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:20:18,383] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:20:18,385] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:20:37,627] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:20:37,816] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:20:38,831] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:20:38,834] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:20:45,938] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-15 18:20:46,118] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:20:47,080] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:20:47,084] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:22:38,345] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\hydrogen_generator.py', reloading
+[2026-03-15 18:22:38,536] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:22:39,571] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:22:39,574] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:22:47,710] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer_generator_asset.py', reloading
+[2026-03-15 18:22:47,897] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:22:48,897] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:22:48,900] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:22:53,988] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\error.py', reloading
+[2026-03-15 18:22:54,176] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:22:55,139] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:22:55,143] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:23:21,466] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer_generator_asset.py', reloading
+[2026-03-15 18:23:21,734] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:23:22,755] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:23:22,759] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:23:58,158] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\hydrogen_generator.py', reloading
+[2026-03-15 18:23:58,343] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:23:59,353] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:23:59,356] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:24:04,442] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\error.py', reloading
+[2026-03-15 18:24:04,645] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:24:05,620] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:24:05,623] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:24:49,122] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\error.py', reloading
+[2026-03-15 18:24:49,302] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:24:50,126] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:24:50,129] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:26:00,935] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:26:01,122] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:26:02,108] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:26:02,112] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:26:25,428] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:26:25,639] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:26:26,602] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:26:26,606] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-15 18:26:31,696] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-15 18:26:31,887] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-15 18:26:32,842] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-15 18:26:32,847] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809

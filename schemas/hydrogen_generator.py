@@ -4,8 +4,8 @@ from pydantic import BaseModel
 
 
 
+# Defines shared fields for hydrogen generator payloads.
 class HydrogenGeneratorBaseSchema(BaseModel):
-    """Shared generator fields."""
 
     generator_id: int
     serial_number: str
@@ -16,28 +16,30 @@ class HydrogenGeneratorBaseSchema(BaseModel):
     current_density: float
 
 
+ # Defines the payload for creating/updating a generator.
 class HydrogenGeneratorSchema(HydrogenGeneratorBaseSchema):
-    """Payload for creating/updating a generator."""
+    pass
 
 
+ # Defines the payload returned when reading generator data.
 class HydrogenGeneratorViewSchema(HydrogenGeneratorBaseSchema):
-    """Payload returned when reading generator data."""
+    pass
 
 
+# Defines fields used to query a specific generator by serial number.
 class HydrogenGeneratorSearchSchema(BaseModel):
-    """Schema used to query a specific generator by its serial number."""
 
     serial_number: str = "H2-PROTO-001"
 
 
+# Defines the response structure for listing generators.
 class HydrogenGeneratorListSchema(BaseModel):
-    """Returns a list of all generators currently in the system."""
 
     generators: List[HydrogenGeneratorViewSchema]
 
 
+# Defines the confirmation response structure for generator deletion.
 class HydrogenGeneratorDeleteSchema(BaseModel):
-    """Used to confirm which generator was successfully removed."""
 
     message: str
     serial_number: str
