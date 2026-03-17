@@ -12,8 +12,8 @@ class CustomerGeneratorAssetSchema(BaseModel):
     customer_id: int = Field(gt=0)
     # Must reference an existing generator PK (positive integer).
     generator_id: int = Field(gt=0)
-    # Number of generator units assigned; at least 1.
-    generator_qtd: int = Field(gt=0)
+    # Number of generator units assigned; between 1 and 10000.
+    generator_qtd: int = Field(gt=0, le=10000)
     # Optional installation date; must be ISO 8601 format (YYYY-MM-DD).
     installation_date: datetime | None = None
 

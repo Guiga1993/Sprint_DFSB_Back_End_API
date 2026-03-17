@@ -115,7 +115,7 @@ asset_tag = Tag(
 # Redirect the root path to the interactive OpenAPI documentation page.
 @app.get("/", tags=[home_tag])  # type: ignore
 def home():
-    """Redireciona para /openapi, com opções de documentação da API."""
+    """Redirects to /openapi, offering multiple API documentation views."""
     return redirect("/openapi")
 
 
@@ -142,26 +142,25 @@ def home():
     },
 )
 def add_customer(form: CustomerSchema):
-    """Adiciona um novo cliente na base de dados."""
+    """Add a new customer to the database."""
     customer = Customer(name=form.name, email=form.email, tx_id=form.tx_id)
     logger.debug("Adding customer with email: '%s'", customer.email)
 
+    session = Session()
     try:
-        session = Session()
-
         # Check each unique field individually before inserting.
         if session.query(Customer).filter(Customer.name == form.name).first():
-            error_msg = "Já existe um cliente com o mesmo nome na base de dados."
+            error_msg = "A customer with the same name already exists in the database."
             logger.warning("Duplicate name '%s': %s", form.name, error_msg)
             return {"message": error_msg}, 409
 
         if session.query(Customer).filter(Customer.email == form.email).first():
-            error_msg = "Já existe um cliente com o mesmo email na base de dados."
+            error_msg = "A customer with the same email already exists in the database."
             logger.warning("Duplicate email '%s': %s", form.email, error_msg)
             return {"message": error_msg}, 409
 
         if session.query(Customer).filter(Customer.tx_id == form.tx_id).first():
-            error_msg = "Já existe um cliente com o mesmo Tax ID na base de dados."
+            error_msg = "A customer with the same Tax ID already exists in the database."
             logger.warning("Duplicate tx_id '%s': %s", form.tx_id, error_msg)
             return {"message": error_msg}, 409
 
@@ -172,17 +171,20 @@ def add_customer(form: CustomerSchema):
 
     except IntegrityError:
         # Safety net for race conditions between duplicate checks and insert.
-        error_msg = "Conflito de dados ao salvar o cliente."
+        error_msg = "Data conflict while saving the customer."
         logger.warning(
             "Error adding customer '%s': %s", customer.email, error_msg)
         return {"message": error_msg}, 409
 
     except Exception:
         # Catch-all for unexpected database or serialization errors.
-        error_msg = "Não foi possível salvar o novo cliente."
+        error_msg = "Unable to save the new customer."
         logger.warning(
             "Error adding customer '%s': %s", customer.email, error_msg)
         return {"message": error_msg}, 400
+
+    finally:
+        session.close()
 
 
 # ── GET /customers ───────────────────────────────────────────────────────────
@@ -193,16 +195,19 @@ def add_customer(form: CustomerSchema):
     responses={"200": CustomerListSchema, "404": ErrorSchema},
 )
 def get_customers():  # type: ignore
-    """Busca todos os clientes cadastrados na base."""
+    """Retrieve all registered customers."""
     logger.debug("Fetching all customers")
     session = Session()
-    customers = session.query(Customer).all()
+    try:
+        customers = session.query(Customer).all()
 
-    if not customers:
-        return {"customers": []}, 200  # type: ignore
+        if not customers:
+            return {"customers": []}, 200  # type: ignore
 
-    logger.debug("%d customers found", len(customers))
-    return serialize_customers(customers), 200
+        logger.debug("%d customers found", len(customers))
+        return serialize_customers(customers), 200
+    finally:
+        session.close()
 
 
 # ── GET /customer ────────────────────────────────────────────────────────────
@@ -213,22 +218,25 @@ def get_customers():  # type: ignore
     responses={"200": CustomerViewSchema, "404": ErrorSchema},
 )
 def get_customer(query: CustomerSearchSchema):
-    """Busca um cliente a partir do seu ID."""
+    """Retrieve a single customer by ID."""
     customer_id = query.customer_id
     logger.debug("Fetching data for customer #%s", customer_id)
 
     session = Session()
-    customer = session.query(Customer).filter(
-        Customer.customer_id == customer_id).first()
+    try:
+        customer = session.query(Customer).filter(
+            Customer.customer_id == customer_id).first()
 
-    if not customer:
-        error_msg = "Cliente não encontrado na base de dados."
-        logger.warning(
-            "Error fetching customer '%s': %s", customer_id, error_msg)
-        return {"message": error_msg}, 404
+        if not customer:
+            error_msg = "Customer not found in the database."
+            logger.warning(
+                "Error fetching customer '%s': %s", customer_id, error_msg)
+            return {"message": error_msg}, 404
 
-    logger.debug("Customer found: '%s'", customer.customer_id)
-    return serialize_customer(customer), 200
+        logger.debug("Customer found: '%s'", customer.customer_id)
+        return serialize_customer(customer), 200
+    finally:
+        session.close()
 
 
 # ── DELETE /customer ─────────────────────────────────────────────────────────
@@ -240,27 +248,30 @@ def get_customer(query: CustomerSearchSchema):
     responses={"200": CustomerDeleteSchema, "404": ErrorSchema},
 )
 def del_customer(query: CustomerSearchSchema):  # type: ignore
-    """Remove um cliente a partir do seu ID."""
+    """Delete a customer by ID."""
     customer_id = query.customer_id
     logger.debug("Deleting customer #%s", customer_id)
 
     session = Session()
-    count = session.query(Customer).filter(
-        Customer.customer_id == customer_id).delete()
+    try:
+        count = session.query(Customer).filter(
+            Customer.customer_id == customer_id).delete()
 
-    if count:
-        # Cascade: remove all asset links referencing this customer.
-        session.query(CustomerGeneratorAsset).filter(
-            CustomerGeneratorAsset.customer_id == customer_id).delete()
+        if count:
+            # Cascade: remove all asset links referencing this customer.
+            session.query(CustomerGeneratorAsset).filter(
+                CustomerGeneratorAsset.customer_id == customer_id).delete()
+            session.commit()
+            logger.debug("Customer deleted: #%s", customer_id)
+            return {"message": "Customer deleted",
+                    "customer_id": customer_id}, 200  # type: ignore
+
         session.commit()
-        logger.debug("Customer deleted: #%s", customer_id)
-        return {"message": "Cliente removido",
-                "customer_id": customer_id}, 200  # type: ignore
-
-    session.commit()
-    error_msg = "Cliente não encontrado na base de dados."
-    logger.warning("Error deleting customer '%s': %s", customer_id, error_msg)
-    return {"message": error_msg}, 404
+        error_msg = "Customer not found in the database."
+        logger.warning("Error deleting customer '%s': %s", customer_id, error_msg)
+        return {"message": error_msg}, 404
+    finally:
+        session.close()
 
 
 # =============================================================================
@@ -287,7 +298,7 @@ def del_customer(query: CustomerSearchSchema):  # type: ignore
     },
 )
 def add_hydrogen_generator(form: HydrogenGeneratorCreateSchema):
-    """Adiciona um novo gerador de hidrogênio na base de dados."""
+    """Add a new hydrogen generator to the database."""
     generator = HydrogenGenerator(
         serial_number=form.serial_number,
         acquisition_type=form.acquisition_type,
@@ -299,8 +310,8 @@ def add_hydrogen_generator(form: HydrogenGeneratorCreateSchema):
     logger.debug(
         "Adding generator with serial: '%s'", generator.serial_number)
 
+    session = Session()
     try:
-        session = Session()
         session.add(generator)
         session.commit()
         logger.debug(
@@ -309,7 +320,7 @@ def add_hydrogen_generator(form: HydrogenGeneratorCreateSchema):
 
     except IntegrityError:
         # Duplicate serial_number detected by the DB unique constraint.
-        error_msg = "Já existe um gerador com o mesmo número de série na base de dados."
+        error_msg = "A hydrogen generator with the same serial number already exists in the database."
         logger.warning(
             "Error adding generator '%s': %s",
             generator.serial_number, error_msg)
@@ -317,11 +328,14 @@ def add_hydrogen_generator(form: HydrogenGeneratorCreateSchema):
 
     except Exception:
         # Catch-all for unexpected database or serialization errors.
-        error_msg = "Não foi possível salvar o novo gerador."
+        error_msg = "Unable to save the new hydrogen generator."
         logger.warning(
             "Error adding generator '%s': %s",
             generator.serial_number, error_msg)
         return {"message": error_msg}, 400
+
+    finally:
+        session.close()
 
 
 # ── GET /hydrogen-generators ─────────────────────────────────────────────────
@@ -333,16 +347,19 @@ def add_hydrogen_generator(form: HydrogenGeneratorCreateSchema):
     responses={"200": HydrogenGeneratorListSchema, "404": ErrorSchema},
 )
 def get_hydrogen_generators():  # type: ignore
-    """Busca todos os geradores de hidrogênio cadastrados na base."""
+    """Retrieve all registered hydrogen generators."""
     logger.debug("Fetching all hydrogen generators")
     session = Session()
-    generators = session.query(HydrogenGenerator).all()
+    try:
+        generators = session.query(HydrogenGenerator).all()
 
-    if not generators:
-        return {"generators": []}, 200  # type: ignore
+        if not generators:
+            return {"generators": []}, 200  # type: ignore
 
-    logger.debug("%d generators found", len(generators))
-    return serialize_generators(generators), 200
+        logger.debug("%d generators found", len(generators))
+        return serialize_generators(generators), 200
+    finally:
+        session.close()
 
 
 # ── GET /hydrogen-generator ──────────────────────────────────────────────────
@@ -354,26 +371,29 @@ def get_hydrogen_generators():  # type: ignore
     responses={"200": HydrogenGeneratorViewSchema, "404": ErrorSchema},
 )
 def get_hydrogen_generator(query: HydrogenGeneratorSearchSchema):
-    """Busca um gerador de hidrogênio a partir do seu número de série."""
+    """Retrieve a single hydrogen generator by serial number."""
     serial_number = query.serial_number
     logger.debug("Fetching data for hydrogen generator '%s'", serial_number)
 
     session = Session()
-    generator = (
-        session.query(HydrogenGenerator)
-        .filter(HydrogenGenerator.serial_number == serial_number)
-        .first()
-    )
+    try:
+        generator = (
+            session.query(HydrogenGenerator)
+            .filter(HydrogenGenerator.serial_number == serial_number)
+            .first()
+        )
 
-    if not generator:
-        error_msg = "Gerador de hidrogênio não encontrado na base de dados."
-        logger.warning(
-            "Error fetching hydrogen generator '%s': %s",
-            serial_number, error_msg)
-        return {"message": error_msg}, 404
+        if not generator:
+            error_msg = "Hydrogen generator not found in the database."
+            logger.warning(
+                "Error fetching hydrogen generator '%s': %s",
+                serial_number, error_msg)
+            return {"message": error_msg}, 404
 
-    logger.debug("Hydrogen generator found: '%s'", generator.serial_number)
-    return serialize_generator(generator), 200
+        logger.debug("Hydrogen generator found: '%s'", generator.serial_number)
+        return serialize_generator(generator), 200
+    finally:
+        session.close()
 
 
 # ── DELETE /hydrogen-generator ───────────────────────────────────────────────
@@ -386,34 +406,36 @@ def get_hydrogen_generator(query: HydrogenGeneratorSearchSchema):
     responses={"200": HydrogenGeneratorDeleteSchema, "404": ErrorSchema},
 )
 def del_hydrogen_generator(query: HydrogenGeneratorSearchSchema):
-    """Remove um gerador de hidrogênio a partir do número de série informado."""
+    """Delete a hydrogen generator by serial number."""
     serial_number = unquote(unquote(query.serial_number))
     logger.debug("Deleting hydrogen generator '%s'", serial_number)
 
     session = Session()
+    try:
+        # Look up the generator to obtain its PK before deleting.
+        generator = (
+            session.query(HydrogenGenerator)
+            .filter(HydrogenGenerator.serial_number == serial_number)
+            .first()
+        )
 
-    # Look up the generator to obtain its PK before deleting.
-    generator = (
-        session.query(HydrogenGenerator)
-        .filter(HydrogenGenerator.serial_number == serial_number)
-        .first()
-    )
+        if generator:
+            generator_id = generator.generator_id
+            session.delete(generator)
+            # Cascade: remove all asset links referencing this generator.
+            session.query(CustomerGeneratorAsset).filter(
+                CustomerGeneratorAsset.generator_id == generator_id).delete()
+            session.commit()
+            logger.debug("Hydrogen generator deleted: '%s'", serial_number)
+            return {"message": "Hydrogen generator deleted",
+                    "serial_number": serial_number}, 200
 
-    if generator:
-        generator_id = generator.generator_id
-        session.delete(generator)
-        # Cascade: remove all asset links referencing this generator.
-        session.query(CustomerGeneratorAsset).filter(
-            CustomerGeneratorAsset.generator_id == generator_id).delete()
-        session.commit()
-        logger.debug("Hydrogen generator deleted: '%s'", serial_number)
-        return {"message": "Gerador de hidrogênio removido",
-                "serial_number": serial_number}, 200
-
-    error_msg = "Gerador de hidrogênio não encontrado na base de dados."
-    logger.warning(
-        "Error deleting hydrogen generator '%s': %s", serial_number, error_msg)
-    return {"message": error_msg}, 404
+        error_msg = "Hydrogen generator not found in the database."
+        logger.warning(
+            "Error deleting hydrogen generator '%s': %s", serial_number, error_msg)
+        return {"message": error_msg}, 404
+    finally:
+        session.close()
 
 
 # =============================================================================
@@ -441,7 +463,7 @@ def del_hydrogen_generator(query: HydrogenGeneratorSearchSchema):
     },
 )
 def add_asset(form: CustomerGeneratorAssetSchema):
-    """Adiciona um novo vínculo entre cliente e gerador na base de dados."""
+    """Add a new customer-generator asset link to the database."""
     asset = CustomerGeneratorAsset(
         customer_id=form.customer_id,
         generator_id=form.generator_id,
@@ -452,13 +474,12 @@ def add_asset(form: CustomerGeneratorAssetSchema):
         "Adding asset link: customer=%s, generator=%s",
         asset.customer_id, asset.generator_id)
 
+    session = Session()
     try:
-        session = Session()
-
         # Verify that the referenced customer exists.
         if not session.query(Customer).filter(
                 Customer.customer_id == form.customer_id).first():
-            error_msg = "Cliente informado não encontrado na base de dados."
+            error_msg = "Customer not found in the database."
             logger.warning(
                 "Customer #%s not found when creating asset", form.customer_id)
             return {"message": error_msg}, 404
@@ -466,7 +487,7 @@ def add_asset(form: CustomerGeneratorAssetSchema):
         # Verify that the referenced generator exists.
         if not session.query(HydrogenGenerator).filter(
                 HydrogenGenerator.generator_id == form.generator_id).first():
-            error_msg = "Gerador informado não encontrado na base de dados."
+            error_msg = "Generator not found in the database."
             logger.warning(
                 "Generator #%s not found when creating asset",
                 form.generator_id)
@@ -479,7 +500,7 @@ def add_asset(form: CustomerGeneratorAssetSchema):
 
     except IntegrityError:
         # Data conflict detected by a database constraint.
-        error_msg = "Conflito de dados ao salvar o vínculo."
+        error_msg = "Data conflict when saving the asset."
         logger.warning(
             "Error adding asset (customer=%s, generator=%s): %s",
             form.customer_id, form.generator_id, error_msg)
@@ -487,11 +508,14 @@ def add_asset(form: CustomerGeneratorAssetSchema):
 
     except Exception as e:
         # Catch-all for unexpected database or serialization errors.
-        error_msg = "Não foi possível salvar o novo vínculo."
+        error_msg = "Unable to save the new asset."
         logger.warning(
             "Error adding asset (customer=%s, generator=%s): %s — %s",
             form.customer_id, form.generator_id, error_msg, e)
         return {"message": error_msg}, 400
+
+    finally:
+        session.close()
 
 
 # ── GET /assets ──────────────────────────────────────────────────────────────
@@ -503,16 +527,19 @@ def add_asset(form: CustomerGeneratorAssetSchema):
     responses={"200": CustomerGeneratorAssetListSchema, "404": ErrorSchema},
 )
 def get_assets():  # type: ignore
-    """Busca todos os vínculos entre clientes e geradores cadastrados na base."""
+    """Retrieve all customer-generator asset links."""
     logger.debug("Fetching all asset links")
     session = Session()
-    assets = session.query(CustomerGeneratorAsset).all()
+    try:
+        assets = session.query(CustomerGeneratorAsset).all()
 
-    if not assets:
-        return {"assets": []}, 200  # type: ignore
+        if not assets:
+            return {"assets": []}, 200  # type: ignore
 
-    logger.debug("%d asset links found", len(assets))
-    return serialize_assets(assets), 200
+        logger.debug("%d asset links found", len(assets))
+        return serialize_assets(assets), 200
+    finally:
+        session.close()
 
 
 # ── GET /asset ───────────────────────────────────────────────────────────────
@@ -523,22 +550,25 @@ def get_assets():  # type: ignore
     responses={"200": CustomerGeneratorAssetViewSchema, "404": ErrorSchema},
 )
 def get_asset(query: CustomerGeneratorAssetSearchSchema):
-    """Busca um vínculo entre cliente e gerador a partir do seu ID."""
+    """Retrieve a single customer-generator asset link by ID."""
     asset_id = query.asset_id
     logger.debug("Fetching data for asset #%s", asset_id)
 
     session = Session()
-    asset = session.query(CustomerGeneratorAsset).filter(
-        CustomerGeneratorAsset.asset_id == asset_id).first()
+    try:
+        asset = session.query(CustomerGeneratorAsset).filter(
+            CustomerGeneratorAsset.asset_id == asset_id).first()
 
-    if not asset:
-        error_msg = "Vínculo não encontrado na base de dados."
-        logger.warning(
-            "Error fetching asset '%s': %s", asset_id, error_msg)
-        return {"message": error_msg}, 404
+        if not asset:
+            error_msg = "Asset not found in the database."
+            logger.warning(
+                "Error fetching asset '%s': %s", asset_id, error_msg)
+            return {"message": error_msg}, 404
 
-    logger.debug("Asset found: '%s'", asset.asset_id)
-    return serialize_asset(asset), 200
+        logger.debug("Asset found: '%s'", asset.asset_id)
+        return serialize_asset(asset), 200
+    finally:
+        session.close()
 
 
 # ── DELETE /asset ────────────────────────────────────────────────────────────
@@ -546,26 +576,41 @@ def get_asset(query: CustomerGeneratorAssetSearchSchema):
 @app.delete(  # type: ignore[misc]
     "/asset",
     tags=[asset_tag],
-    responses={"200": CustomerGeneratorAssetDeleteSchema, "404": ErrorSchema},
+    responses={
+        "200": CustomerGeneratorAssetDeleteSchema,
+        "404": ErrorSchema,
+        "400": ErrorSchema,
+    },
 )
+
 def del_asset(query: CustomerGeneratorAssetSearchSchema):  # type: ignore
-    """Remove um vínculo entre cliente e gerador a partir do seu ID."""
+    """Delete a customer-generator asset link by ID."""
     asset_id = query.asset_id
     logger.debug("Deleting asset #%s", asset_id)
 
     session = Session()
-    count = session.query(CustomerGeneratorAsset).filter(
-        CustomerGeneratorAsset.asset_id == asset_id).delete()
-    session.commit()
+    try:
+        count = session.query(CustomerGeneratorAsset).filter(
+            CustomerGeneratorAsset.asset_id == asset_id).delete()
+        session.commit()
 
-    if count:
-        logger.debug("Asset deleted: #%s", asset_id)
-        return {"message": "Vínculo removido",
-                "asset_id": asset_id}, 200  # type: ignore
+        if count:
+            logger.debug("Asset deleted: #%s", asset_id)
+            return {"message": "Asset deleted",
+                    "asset_id": asset_id}, 200  # type: ignore
 
-    error_msg = "Vínculo não encontrado na base de dados."
-    logger.warning("Error deleting asset '%s': %s", asset_id, error_msg)
-    return {"message": error_msg}, 404
+        error_msg = "Asset not found in the database."
+        logger.warning("Error deleting asset '%s': %s", asset_id, error_msg)
+        return {"message": error_msg}, 404
+
+    except Exception:
+        # Catch-all for unexpected database errors during deletion.
+        error_msg = "Error deleting asset."
+        logger.warning("Error deleting asset '%s': %s", asset_id, error_msg)
+        return {"message": error_msg}, 400
+
+    finally:
+        session.close()
 
 
 # =============================================================================
