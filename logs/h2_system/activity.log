@@ -919,3 +919,384 @@
 [2026-03-15 23:14:32] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 23:14:32] "GET /customers HTTP/1.1" 200 -
 [2026-03-15 23:14:32] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 23:14:32] "GET /hydrogen-generators HTTP/1.1" 200 -
 [2026-03-15 23:14:32] INFO    [_internal.py:97] - 127.0.0.1 - - [15/Mar/2026 23:14:32] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 17:14:32] INFO    [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-03-16 17:14:32] INFO    [_internal.py:97] - [33mPress CTRL+C to quit[0m
+[2026-03-16 17:14:32] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 17:14:33] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 17:14:33] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 17:14:52] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:14:52] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 17:14:52] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:14:52] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 17:14:52] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:14:52] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 17:15:23] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:15:23] "OPTIONS /customer?customer_id=6 HTTP/1.1" 200 -
+[2026-03-16 17:15:23] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:15:23] "DELETE /customer?customer_id=6 HTTP/1.1" 200 -
+[2026-03-16 17:17:14] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:17:14] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 17:17:14] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:17:14] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 17:17:14] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:17:14] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 17:17:19] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:17:19] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 17:17:19] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:17:19] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 17:17:19] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:17:19] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 17:17:25] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:17:25] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 17:17:25] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:17:25] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 17:17:25] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:17:25] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 17:17:30] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:17:30] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 17:17:30] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:17:30] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 17:17:30] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:17:30] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 17:17:35] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:17:35] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 17:17:35] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:17:35] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 17:17:35] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:17:35] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 17:17:40] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:17:40] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 17:17:40] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:17:40] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 17:17:40] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:17:40] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 17:18:10] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:18:10] "[31m[1mPOST /hydrogen-generator HTTP/1.1[0m" 422 -
+[2026-03-16 17:18:27] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:18:27] "[31m[1mPOST /hydrogen-generator HTTP/1.1[0m" 422 -
+[2026-03-16 17:18:36] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:18:36] "[31m[1mPOST /hydrogen-generator HTTP/1.1[0m" 422 -
+[2026-03-16 17:22:32] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:22:32] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 17:22:32] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:22:32] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 17:22:32] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:22:32] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 17:24:26] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:24:26] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 17:24:26] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:24:26] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 17:24:26] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:24:26] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 17:24:35] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:24:35] "[31m[1mPOST /customer HTTP/1.1[0m" 422 -
+[2026-03-16 17:26:57] WARNING [app.py:483] - Customer #1 not found when creating asset
+[2026-03-16 17:26:57] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:26:57] "[33mPOST /asset HTTP/1.1[0m" 404 -
+[2026-03-16 17:27:12] WARNING [app.py:491] - Generator #1 not found when creating asset
+[2026-03-16 17:27:12] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:27:12] "[33mPOST /asset HTTP/1.1[0m" 404 -
+[2026-03-16 17:28:39] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-16 17:28:39] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 17:28:44] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 17:28:44] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 17:28:44] WARNING [app.py:491] - Gerador #1 não encontrado ao criar ativo
+[2026-03-16 17:28:44] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:28:44] "[33mPOST /asset HTTP/1.1[0m" 404 -
+[2026-03-16 17:28:50] WARNING [app.py:483] - Cliente #8 não encontrado ao criar ativo
+[2026-03-16 17:28:50] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:28:50] "[33mPOST /asset HTTP/1.1[0m" 404 -
+[2026-03-16 17:29:06] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:29:06] "[31m[1mPOST /asset HTTP/1.1[0m" 422 -
+[2026-03-16 17:29:13] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:29:13] "[31m[1mPOST /asset HTTP/1.1[0m" 422 -
+[2026-03-16 17:29:22] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 17:29:22] "[31m[1mPOST /asset HTTP/1.1[0m" 422 -
+[2026-03-16 17:31:15] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer_generator_asset.py', reloading
+[2026-03-16 17:31:16] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 17:31:16] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 17:31:16] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 17:32:15] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer_generator_asset.py', reloading
+[2026-03-16 17:32:15] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 17:32:16] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 17:32:16] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 19:52:22] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-16 19:52:22] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 19:52:23] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 19:52:23] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 19:52:31] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 19:52:31] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 19:52:31] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 19:52:31] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 19:52:31] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 19:52:31] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 19:53:25] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 19:53:25] "POST /customer HTTP/1.1" 200 -
+[2026-03-16 19:53:37] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 19:53:37] "[31m[1mPOST /customer HTTP/1.1[0m" 422 -
+[2026-03-16 19:54:08] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 19:54:08] "[31m[1mPOST /customer HTTP/1.1[0m" 422 -
+[2026-03-16 19:54:14] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 19:54:14] "[31m[1mPOST /customer HTTP/1.1[0m" 422 -
+[2026-03-16 19:54:23] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 19:54:23] "[31m[1mPOST /customer HTTP/1.1[0m" 422 -
+[2026-03-16 19:55:43] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-16 19:55:43] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 19:55:44] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 19:55:44] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 19:56:08] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-16 19:56:09] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 19:56:09] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 19:56:09] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 19:56:12] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 19:56:12] "[31m[1mPOST /customer HTTP/1.1[0m" 422 -
+[2026-03-16 19:56:15] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 19:56:15] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 19:56:15] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 19:56:15] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 19:56:15] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 19:56:15] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 19:56:17] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 19:56:17] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 19:56:17] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 19:56:17] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 19:56:17] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 19:56:17] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 19:56:17] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 19:56:17] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 19:56:17] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 19:56:17] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 19:56:17] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 19:56:17] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 19:56:26] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 19:56:26] "POST /customer HTTP/1.1" 200 -
+[2026-03-16 19:57:22] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\hydrogen_generator.py', reloading
+[2026-03-16 19:57:22] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 19:57:23] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 19:57:23] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 19:57:35] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\hydrogen_generator.py', reloading
+[2026-03-16 19:57:35] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 19:57:36] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 19:57:36] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 19:57:40] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-16 19:57:40] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 19:57:41] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 19:57:41] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 19:57:45] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 19:57:45] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 19:57:45] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 19:57:45] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 19:57:45] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 19:57:45] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 19:58:16] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 19:58:16] "POST /hydrogen-generator HTTP/1.1" 200 -
+[2026-03-16 20:01:33] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\hydrogen_generator.py', reloading
+[2026-03-16 20:01:33] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 20:01:34] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 20:01:34] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 20:02:04] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\hydrogen_generator.py', reloading
+[2026-03-16 20:02:04] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 20:02:05] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 20:02:05] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 20:03:12] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\hydrogen_generator.py', reloading
+[2026-03-16 20:03:12] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 20:03:13] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 20:03:13] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 20:03:38] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\hydrogen_generator.py', reloading
+[2026-03-16 20:03:38] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 20:03:39] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 20:03:39] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 20:03:43] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-16 20:03:43] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 20:03:44] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 20:03:44] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 20:03:45] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-16 20:03:45] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 20:03:46] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 20:03:46] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 20:04:16] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 20:04:16] "[31m[1mPOST /hydrogen-generator HTTP/1.1[0m" 422 -
+[2026-03-16 20:04:24] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 20:04:24] "[31m[1mPOST /hydrogen-generator HTTP/1.1[0m" 422 -
+[2026-03-16 20:05:10] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 20:05:10] "POST /hydrogen-generator HTTP/1.1" 200 -
+[2026-03-16 20:08:31] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-16 20:08:31] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 20:08:32] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 20:08:32] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 20:11:37] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-16 20:11:37] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 20:11:38] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 20:11:38] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 20:11:51] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 20:11:51] "[31m[1mPOST /hydrogen-generator HTTP/1.1[0m" 422 -
+[2026-03-16 20:12:20] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 20:12:20] "[31m[1mPOST /hydrogen-generator HTTP/1.1[0m" 422 -
+[2026-03-16 20:17:08] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 20:17:08] "[31m[1mPOST /hydrogen-generator HTTP/1.1[0m" 422 -
+[2026-03-16 20:17:11] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 20:17:11] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 20:17:11] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 20:17:11] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 20:17:11] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 20:17:11] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 20:17:28] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 20:17:28] "POST /hydrogen-generator HTTP/1.1" 200 -
+[2026-03-16 20:33:04] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-16 20:33:04] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 20:33:05] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 20:33:05] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 20:33:09] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-16 20:33:09] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 20:33:10] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 20:33:10] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 20:34:52] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-16 20:34:52] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 20:34:53] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 20:34:53] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 20:35:47] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\hydrogen_generator.py', reloading
+[2026-03-16 20:35:47] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 20:35:48] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 20:35:48] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 20:36:13] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\hydrogen_generator.py', reloading
+[2026-03-16 20:36:14] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 20:36:14] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 20:36:14] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 20:36:16] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\hydrogen_generator.py', reloading
+[2026-03-16 20:36:17] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 20:36:17] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 20:36:17] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 20:37:07] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-16 20:37:07] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 20:37:08] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 20:37:08] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 20:37:26] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-16 20:37:26] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 20:37:27] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 20:37:27] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 20:37:30] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer.py', reloading
+[2026-03-16 20:37:30] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 20:37:31] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 20:37:31] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 20:38:11] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer_generator_asset.py', reloading
+[2026-03-16 20:38:11] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 20:38:11] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 20:38:11] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 20:38:34] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer_generator_asset.py', reloading
+[2026-03-16 20:38:34] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 20:38:35] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 20:38:35] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 20:38:38] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\customer_generator_asset.py', reloading
+[2026-03-16 20:38:38] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 20:38:39] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 20:38:39] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 20:39:18] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\model\\hydrogen_generator.py', reloading
+[2026-03-16 20:39:18] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 20:39:19] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 20:39:19] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 21:23:36] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\model\\hydrogen_generator.py', reloading
+[2026-03-16 21:23:36] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 21:23:37] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 21:23:37] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 21:24:49] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\model\\customer.py', reloading
+[2026-03-16 21:24:49] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 21:24:50] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 21:24:50] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 21:24:53] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\model\\customer.py', reloading
+[2026-03-16 21:24:53] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 21:24:54] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 21:24:54] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 21:25:35] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\model\\customer_generator_asset.py', reloading
+[2026-03-16 21:25:36] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 21:25:36] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 21:25:36] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 21:25:51] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\model\\customer_generator_asset.py', reloading
+[2026-03-16 21:25:51] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 21:25:51] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 21:25:51] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 21:25:55] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\model\\customer_generator_asset.py', reloading
+[2026-03-16 21:25:55] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 21:25:55] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 21:25:55] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 21:25:56] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\model\\customer_generator_asset.py', reloading
+[2026-03-16 21:25:57] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 21:25:57] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 21:25:57] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 21:25:59] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:25:59] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 21:25:59] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:25:59] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 21:25:59] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:25:59] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 21:26:42] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:26:42] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 21:26:42] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:26:42] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 21:26:42] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:26:42] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 21:26:56] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:26:56] "OPTIONS /customer?customer_id=2 HTTP/1.1" 200 -
+[2026-03-16 21:26:56] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:26:56] "DELETE /customer?customer_id=2 HTTP/1.1" 200 -
+[2026-03-16 21:27:01] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:01] "OPTIONS /customer?customer_id=3 HTTP/1.1" 200 -
+[2026-03-16 21:27:01] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:01] "DELETE /customer?customer_id=3 HTTP/1.1" 200 -
+[2026-03-16 21:27:05] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:05] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 21:27:05] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:05] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 21:27:05] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:05] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 21:27:14] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:14] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 21:27:14] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:14] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 21:27:14] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:14] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 21:27:15] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:15] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 21:27:15] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:15] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 21:27:15] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:15] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 21:27:19] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:19] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 21:27:19] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:19] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 21:27:19] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:19] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 21:27:24] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:24] "OPTIONS /customer?customer_id=4 HTTP/1.1" 200 -
+[2026-03-16 21:27:24] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:24] "DELETE /customer?customer_id=4 HTTP/1.1" 200 -
+[2026-03-16 21:27:29] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:29] "OPTIONS /customer?customer_id=5 HTTP/1.1" 200 -
+[2026-03-16 21:27:29] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:29] "DELETE /customer?customer_id=5 HTTP/1.1" 200 -
+[2026-03-16 21:27:32] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:32] "OPTIONS /customer?customer_id=6 HTTP/1.1" 200 -
+[2026-03-16 21:27:32] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:32] "DELETE /customer?customer_id=6 HTTP/1.1" 200 -
+[2026-03-16 21:27:36] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:36] "OPTIONS /customer?customer_id=7 HTTP/1.1" 200 -
+[2026-03-16 21:27:36] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:36] "DELETE /customer?customer_id=7 HTTP/1.1" 200 -
+[2026-03-16 21:27:46] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:46] "OPTIONS /hydrogen-generator?serial_number=GENSET-3600 HTTP/1.1" 200 -
+[2026-03-16 21:27:46] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:46] "[31m[1mDELETE /hydrogen-generator?serial_number=GENSET-3600 HTTP/1.1[0m" 422 -
+[2026-03-16 21:27:50] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:50] "[31m[1mDELETE /hydrogen-generator?serial_number=GENSET-3600 HTTP/1.1[0m" 422 -
+[2026-03-16 21:27:59] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:59] "OPTIONS /hydrogen-generator?serial_number=GEN-0000 HTTP/1.1" 200 -
+[2026-03-16 21:27:59] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:27:59] "DELETE /hydrogen-generator?serial_number=GEN-0000 HTTP/1.1" 200 -
+[2026-03-16 21:28:04] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:28:04] "OPTIONS /hydrogen-generator?serial_number=GENSET-3600 HTTP/1.1" 200 -
+[2026-03-16 21:28:04] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:28:04] "[31m[1mDELETE /hydrogen-generator?serial_number=GENSET-3600 HTTP/1.1[0m" 422 -
+[2026-03-16 21:28:08] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:28:08] "OPTIONS /hydrogen-generator?serial_number=GEN-TEST-002 HTTP/1.1" 200 -
+[2026-03-16 21:28:08] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:28:08] "[31m[1mDELETE /hydrogen-generator?serial_number=GEN-TEST-002 HTTP/1.1[0m" 422 -
+[2026-03-16 21:28:16] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:28:16] "OPTIONS /hydrogen-generator?serial_number=GENSET-3600 HTTP/1.1" 200 -
+[2026-03-16 21:28:16] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:28:16] "[31m[1mDELETE /hydrogen-generator?serial_number=GENSET-3600 HTTP/1.1[0m" 422 -
+[2026-03-16 21:55:53] INFO    [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-03-16 21:55:53] INFO    [_internal.py:97] - [33mPress CTRL+C to quit[0m
+[2026-03-16 21:55:53] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 21:55:54] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 21:55:54] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 21:55:58] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:55:58] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-16 21:55:58] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:55:58] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-03-16 21:55:58] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:55:58] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-16 21:55:58] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:55:58] "[36mGET /openapi/redoc/images/redoc.svg HTTP/1.1[0m" 304 -
+[2026-03-16 21:55:58] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:55:58] "[36mGET /openapi/rapidoc/images/rapidoc.svg HTTP/1.1[0m" 304 -
+[2026-03-16 21:55:58] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:55:58] "[36mGET /openapi/swagger/images/swagger.svg HTTP/1.1[0m" 304 -
+[2026-03-16 21:56:05] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:56:05] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-16 21:56:05] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:56:05] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-16 21:56:05] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:56:05] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-16 21:56:05] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:56:05] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-16 21:56:05] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:56:05] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-16 21:57:03] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:57:03] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 21:57:03] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:57:03] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 21:57:03] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:57:03] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 21:57:19] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:57:19] "OPTIONS /hydrogen-generator?serial_number=GENSET-3600 HTTP/1.1" 200 -
+[2026-03-16 21:57:19] WARNING [app.py:424] - Invalid serial format for delete 'GENSET-3600': serial_number must follow the format GEN-0000 for deletion.
+[2026-03-16 21:57:19] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:57:19] "[31m[1mDELETE /hydrogen-generator?serial_number=GENSET-3600 HTTP/1.1[0m" 400 -
+[2026-03-16 21:57:47] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:57:47] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 21:57:47] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:57:47] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 21:57:47] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 21:57:47] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 22:01:48] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-16 22:01:49] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 22:01:49] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 22:01:49] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 22:01:51] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:01:51] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 22:01:51] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:01:51] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 22:01:51] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:01:51] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 22:01:54] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:01:54] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 22:02:16] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:02:16] "POST /customer HTTP/1.1" 200 -
+[2026-03-16 22:02:16] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:02:16] "GET /customer?customer_id=1 HTTP/1.1" 200 -
+[2026-03-16 22:02:37] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:02:37] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 22:02:38] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:02:38] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 22:02:42] WARNING [app.py:236] - Error fetching customer '2': Cliente não encontrado no banco de dados.
+[2026-03-16 22:02:42] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:02:42] "[33mGET /customer?customer_id=2 HTTP/1.1[0m" 404 -
+[2026-03-16 22:03:00] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:03:00] "GET /customer?customer_id=1 HTTP/1.1" 200 -
+[2026-03-16 22:03:01] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:03:01] "GET /customer?customer_id=1 HTTP/1.1" 200 -
+[2026-03-16 22:03:02] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:03:02] "GET /customer?customer_id=1 HTTP/1.1" 200 -
+[2026-03-16 22:03:04] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:03:04] "GET /customer?customer_id=1 HTTP/1.1" 200 -
+[2026-03-16 22:03:10] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:03:10] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 22:05:16] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-16 22:05:16] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 22:05:17] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 22:05:17] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 22:05:20] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:05:20] "GET /customer?customer_id=1 HTTP/1.1" 200 -
+[2026-03-16 22:05:25] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:05:25] "GET /customer?customer_id=1 HTTP/1.1" 200 -
+[2026-03-16 22:07:28] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-16 22:07:28] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 22:07:29] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 22:07:29] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 22:07:38] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:07:38] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 22:07:40] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:07:40] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 22:07:42] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:07:42] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 22:07:43] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:07:43] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 22:07:59] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:07:59] "POST /customer HTTP/1.1" 200 -
+[2026-03-16 22:08:07] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:08:07] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 22:08:12] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:08:12] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 22:08:38] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:08:38] "POST /hydrogen-generator HTTP/1.1" 200 -
+[2026-03-16 22:08:48] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:08:48] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 22:09:03] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:09:03] "POST /asset HTTP/1.1" 200 -
+[2026-03-16 22:09:06] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:09:06] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 22:09:11] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:09:11] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 22:09:16] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:09:16] "POST /asset HTTP/1.1" 200 -
+[2026-03-16 22:09:20] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:09:20] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 22:10:38] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:10:38] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 22:10:57] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:10:57] "GET /hydrogen-generator?serial_number=GEN-0001 HTTP/1.1" 200 -
+[2026-03-16 22:11:00] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:11:00] "OPTIONS /hydrogen-generator?serial_number=GEN-0001 HTTP/1.1" 200 -
+[2026-03-16 22:11:00] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:11:00] "DELETE /hydrogen-generator?serial_number=GEN-0001 HTTP/1.1" 200 -
+[2026-03-16 22:11:10] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:11:10] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 22:11:13] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:11:13] "GET /assets HTTP/1.1" 200 -
+[2026-03-16 22:11:17] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:11:17] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 22:11:31] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-16 22:11:31] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 22:11:32] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 22:11:32] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 22:16:14] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:16:14] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 22:20:05] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\logger.py', reloading
+[2026-03-16 22:20:05] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 22:20:05] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 22:20:05] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 22:20:30] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\logger.py', reloading
+[2026-03-16 22:20:30] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 22:20:31] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 22:20:31] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 22:21:20] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:21:20] "POST /customer HTTP/1.1" 200 -
+[2026-03-16 22:21:22] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:21:22] "GET /customers HTTP/1.1" 200 -
+[2026-03-16 22:24:45] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\schemas\\logger.py', reloading
+[2026-03-16 22:24:45] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 22:24:45] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 22:24:46] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 22:25:00] WARNING [app.py:161] - Duplicate email 'guilherme@gmail.com': A customer with the same email already exists in the database.
+[2026-03-16 22:25:00] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:25:00] "[31m[1mPOST /customer HTTP/1.1[0m" 409 -
+[2026-03-16 22:27:13] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-16 22:27:13] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-16 22:27:14] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-16 22:27:14] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-16 22:27:29] WARNING [app.py:161] - Duplicate email 'guilherme@gmail.com': A customer with the same email already exists in the database.
+[2026-03-16 22:27:29] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:27:29] "[31m[1mPOST /customer HTTP/1.1[0m" 409 -
+[2026-03-16 22:27:44] WARNING [app.py:395] - Error fetching hydrogen generator 'GEN-0001': Hydrogen generator not found in the database.
+[2026-03-16 22:27:44] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:27:44] "[33mGET /hydrogen-generator?serial_number=GEN-0001 HTTP/1.1[0m" 404 -
+[2026-03-16 22:27:46] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:27:46] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 22:27:46] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:27:46] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 22:27:47] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:27:47] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-16 22:27:47] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:27:47] "GET /hydrogen-generators HTTP/1.1" 200 -

@@ -4,6 +4,12 @@ from sqlalchemy.orm import Mapped, mapped_column
 from model.base_class import Base
 
 
+# Column-size constraints used in DB mappings.
+SERIAL_NUMBER_MAX_LENGTH = 50
+ACQUISITION_TYPE_MAX_LENGTH = 20
+STACK_TYPE_MAX_LENGTH = 50
+
+
 # ORM model representing a hydrogen generator unit.
 # Maps to the "hydrogen_generators" table in the database.
 class HydrogenGenerator(Base):
@@ -13,11 +19,15 @@ class HydrogenGenerator(Base):
     # Auto-incremented surrogate primary key.
     generator_id: Mapped[int] = mapped_column("pk_generator", Integer, primary_key=True)
     # Unique serial number that identifies the physical unit (max 50 chars).
-    serial_number: Mapped[str] = mapped_column(String(50), unique=True, nullable=False)
+    serial_number: Mapped[str] = mapped_column(
+        String(SERIAL_NUMBER_MAX_LENGTH), unique=True, nullable=False
+    )
     # Acquisition model: Leasing, Renting, or Direct Sales (max 20 chars).
-    acquisition_type: Mapped[str] = mapped_column(String(20), nullable=False)
+    acquisition_type: Mapped[str] = mapped_column(
+        String(ACQUISITION_TYPE_MAX_LENGTH), nullable=False
+    )
     # Fuel-cell technology: PEMFC, Alcaline, SOFC, AEMFC, or Custom (max 50 chars).
-    stack_type: Mapped[str] = mapped_column(String(50), nullable=False)
+    stack_type: Mapped[str] = mapped_column(String(STACK_TYPE_MAX_LENGTH), nullable=False)
     # Total number of individual cells in the fuel-cell stack.
     number_of_cells: Mapped[int] = mapped_column(Integer, nullable=False)
     # Combined voltage output of the full stack, in volts.
@@ -45,9 +55,11 @@ class HydrogenGenerator(Base):
             stack_voltage: total voltage output (V).
             current_density: operating current density (A/cm²).
         """
+        # Step 1: assign identifier and categorical fields.
         self.serial_number = serial_number
         self.acquisition_type = acquisition_type
         self.stack_type = stack_type
+        # Step 2: assign numeric operating parameters.
         self.number_of_cells = number_of_cells
         self.stack_voltage = stack_voltage
         self.current_density = current_density

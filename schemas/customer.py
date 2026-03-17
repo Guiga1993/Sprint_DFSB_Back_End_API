@@ -1,11 +1,13 @@
 from typing import Annotated, Any, List
+import re
 
 from pydantic import BaseModel, EmailStr, Field, StringConstraints, field_validator
-import re
 
 # Reusable type alias: enforces name length between 2 and 150 characters,
 # matching the database column constraint (String(150)).
 NonEmptyName = Annotated[str, StringConstraints(min_length=2, max_length=150)]
+# Fixed tax ID format expected by backend and frontend validations.
+TAX_ID_REGEX = r"\d{3}-\d{2}-\d{4}"
 
 
 # ---------- Input Schema ----------
@@ -21,18 +23,23 @@ class CustomerSchema(BaseModel):
     @field_validator("name")
     @classmethod
     def validate_name(cls, value: str) -> str:
-        """Strip leading/trailing whitespace and reject blank names."""
+        """Normalize name and validate non-empty + minimum length."""
         normalized = value.strip()
+        # Step 1: reject empty values after trimming.
         if not normalized:
-            raise ValueError("name must not be empty")
+            raise ValueError("O nome não pode estar vazio.")
+        # Step 2: enforce minimum length required by the project.
+        if len(normalized) < 2:
+            raise ValueError("O nome deve ter pelo menos 2 caracteres.")
         return normalized
 
     @field_validator("tx_id")
     @classmethod
     def validate_tx_id(cls, value: str) -> str:
-        """Ensure tx_id matches the required format: 000-00-0000."""
-        if not re.fullmatch(r"\d{3}-\d{2}-\d{4}", value):
-            raise ValueError("tx_id must follow the format 000-00-0000")
+        """Validate Tax ID against the required format: 000-00-0000."""
+        # Tax ID must match the fixed pattern used across frontend/backend.
+        if not re.fullmatch(TAX_ID_REGEX, value):
+            raise ValueError("O Tax ID deve seguir o formato 000-00-0000.")
         return value
 
 

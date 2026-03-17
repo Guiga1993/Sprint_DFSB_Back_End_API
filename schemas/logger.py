@@ -1,3 +1,23 @@
+"""
+Log line structure:
+
+- Console log lines:
+  [YYYY-MM-DD HH:MM:SS] LEVEL    LOGGER_NAME: message
+  Example:
+    [2026-03-16 14:23:01] INFO    H2_Generator_API: Customer added with id: '5'
+
+- File log lines (logs/h2_system/activity.log):
+  [YYYY-MM-DD HH:MM:SS] LEVEL    [filename.py:line] - message
+  Example:
+    [2026-03-16 14:23:01] INFO    [app.py:123] - Customer added with id: '5'
+
+Fields:
+  - [asctime]: Timestamp of the log event
+  - LEVEL: Log level (INFO, WARNING, ERROR, etc.)
+  - LOGGER_NAME: Name of the logger (console only)
+  - [filename.py:line]: Source file and line number (file only)
+  - message: Log message
+"""
 import logging
 import os
 from logging.config import dictConfig

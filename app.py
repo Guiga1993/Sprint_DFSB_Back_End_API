@@ -7,6 +7,7 @@
 
 
 # ── Standard library imports ─────────────────────────────────────────────────
+import re
 from urllib.parse import unquote
 
 # ── Third-party imports ──────────────────────────────────────────────────────
@@ -143,12 +144,13 @@ def home():
 )
 def add_customer(form: CustomerSchema):
     """Add a new customer to the database."""
+    # Step 1: Build the ORM object from validated payload.
     customer = Customer(name=form.name, email=form.email, tx_id=form.tx_id)
     logger.debug("Adding customer with email: '%s'", customer.email)
 
     session = Session()
     try:
-        # Check each unique field individually before inserting.
+        # Step 2: Validate uniqueness one field at a time for clearer feedback.
         if session.query(Customer).filter(Customer.name == form.name).first():
             error_msg = "A customer with the same name already exists in the database."
             logger.warning("Duplicate name '%s': %s", form.name, error_msg)
@@ -164,6 +166,7 @@ def add_customer(form: CustomerSchema):
             logger.warning("Duplicate tx_id '%s': %s", form.tx_id, error_msg)
             return {"message": error_msg}, 409
 
+        # Step 3: Persist and return the created entity.
         session.add(customer)
         session.commit()
         logger.debug("Customer added with id: '%s'", customer.customer_id)
@@ -201,6 +204,7 @@ def get_customers():  # type: ignore
     try:
         customers = session.query(Customer).all()
 
+        # Return an explicit empty list instead of 404 for collection endpoints.
         if not customers:
             return {"customers": []}, 200  # type: ignore
 
@@ -228,7 +232,7 @@ def get_customer(query: CustomerSearchSchema):
             Customer.customer_id == customer_id).first()
 
         if not customer:
-            error_msg = "Customer not found in the database."
+            error_msg = "Cliente não encontrado no banco de dados."
             logger.warning(
                 "Error fetching customer '%s': %s", customer_id, error_msg)
             return {"message": error_msg}, 404
@@ -267,7 +271,7 @@ def del_customer(query: CustomerSearchSchema):  # type: ignore
                     "customer_id": customer_id}, 200  # type: ignore
 
         session.commit()
-        error_msg = "Customer not found in the database."
+        error_msg = "Cliente não encontrado no banco de dados."
         logger.warning("Error deleting customer '%s': %s", customer_id, error_msg)
         return {"message": error_msg}, 404
     finally:
@@ -299,6 +303,7 @@ def del_customer(query: CustomerSearchSchema):  # type: ignore
 )
 def add_hydrogen_generator(form: HydrogenGeneratorCreateSchema):
     """Add a new hydrogen generator to the database."""
+    # Step 1: Build the ORM object from validated payload.
     generator = HydrogenGenerator(
         serial_number=form.serial_number,
         acquisition_type=form.acquisition_type,
@@ -312,6 +317,7 @@ def add_hydrogen_generator(form: HydrogenGeneratorCreateSchema):
 
     session = Session()
     try:
+        # Step 2: Persist directly; serial uniqueness is enforced by DB constraint.
         session.add(generator)
         session.commit()
         logger.debug(
@@ -353,6 +359,7 @@ def get_hydrogen_generators():  # type: ignore
     try:
         generators = session.query(HydrogenGenerator).all()
 
+        # Return an explicit empty list instead of 404 for collection endpoints.
         if not generators:
             return {"generators": []}, 200  # type: ignore
 
@@ -403,12 +410,19 @@ def get_hydrogen_generator(query: HydrogenGeneratorSearchSchema):
 @app.delete(  # type: ignore[misc]
     "/hydrogen-generator",
     tags=[hydrogen_generator_tag],
-    responses={"200": HydrogenGeneratorDeleteSchema, "404": ErrorSchema},
+    responses={"200": HydrogenGeneratorDeleteSchema, "404": ErrorSchema, "400": ErrorSchema},
 )
 def del_hydrogen_generator(query: HydrogenGeneratorSearchSchema):
     """Delete a hydrogen generator by serial number."""
+    # Normalize encoded serial values sent in query strings.
     serial_number = unquote(unquote(query.serial_number))
     logger.debug("Deleting hydrogen generator '%s'", serial_number)
+
+    # Deletion is intentionally restricted to the current serial format only.
+    if not re.fullmatch(r"GEN-\d{4}", serial_number):
+        error_msg = "serial_number must follow the format GEN-0000 for deletion."
+        logger.warning("Invalid serial format for delete '%s': %s", serial_number, error_msg)
+        return {"message": error_msg}, 400
 
     session = Session()
     try:
@@ -421,6 +435,7 @@ def del_hydrogen_generator(query: HydrogenGeneratorSearchSchema):
 
         if generator:
             generator_id = generator.generator_id
+            # Delete main record first, then cleanup relationship rows.
             session.delete(generator)
             # Cascade: remove all asset links referencing this generator.
             session.query(CustomerGeneratorAsset).filter(
@@ -464,6 +479,7 @@ def del_hydrogen_generator(query: HydrogenGeneratorSearchSchema):
 )
 def add_asset(form: CustomerGeneratorAssetSchema):
     """Add a new customer-generator asset link to the database."""
+    # Step 1: Build ORM object from validated payload.
     asset = CustomerGeneratorAsset(
         customer_id=form.customer_id,
         generator_id=form.generator_id,
@@ -476,23 +492,23 @@ def add_asset(form: CustomerGeneratorAssetSchema):
 
     session = Session()
     try:
-        # Verify that the referenced customer exists.
+        # Step 2a: Validate foreign-key references before insertion.
         if not session.query(Customer).filter(
                 Customer.customer_id == form.customer_id).first():
-            error_msg = "Customer not found in the database."
+            error_msg = "Cliente não encontrado no banco de dados."
             logger.warning(
-                "Customer #%s not found when creating asset", form.customer_id)
+                "Cliente #%s não encontrado ao criar ativo", form.customer_id)
             return {"message": error_msg}, 404
 
-        # Verify that the referenced generator exists.
+        # Step 2b: Validate generator reference.
         if not session.query(HydrogenGenerator).filter(
                 HydrogenGenerator.generator_id == form.generator_id).first():
-            error_msg = "Generator not found in the database."
+            error_msg = "Gerador não encontrado no banco de dados."
             logger.warning(
-                "Generator #%s not found when creating asset",
-                form.generator_id)
+                "Gerador #%s não encontrado ao criar ativo", form.generator_id)
             return {"message": error_msg}, 404
 
+        # Step 3: Persist and return created link.
         session.add(asset)
         session.commit()
         logger.debug("Asset added with id: '%s'", asset.asset_id)
@@ -533,6 +549,7 @@ def get_assets():  # type: ignore
     try:
         assets = session.query(CustomerGeneratorAsset).all()
 
+        # Return an explicit empty list instead of 404 for collection endpoints.
         if not assets:
             return {"assets": []}, 200  # type: ignore
 
@@ -594,6 +611,7 @@ def del_asset(query: CustomerGeneratorAssetSearchSchema):  # type: ignore
             CustomerGeneratorAsset.asset_id == asset_id).delete()
         session.commit()
 
+        # DELETE returns success only when a row was actually removed.
         if count:
             logger.debug("Asset deleted: #%s", asset_id)
             return {"message": "Asset deleted",

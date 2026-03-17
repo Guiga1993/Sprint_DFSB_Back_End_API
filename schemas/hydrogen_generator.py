@@ -1,10 +1,15 @@
 from typing import Any, List, Literal
+import re
 
 from pydantic import BaseModel, Field, field_validator
 
 # Allowed dropdown values — must match the <select> options in the frontend.
 AcquisitionType = Literal["Leasing", "Renting", "Direct Sales"]
 StackType = Literal["PEMFC", "Alcaline", "SOFC", "AEMFC", "Other/Personalized"]
+# Fixed serial format expected by backend and frontend validations.
+SERIAL_NUMBER_REGEX = r"GEN-\d{4}"
+# Legacy serial formats accepted for lookup/delete compatibility.
+SERIAL_LOOKUP_REGEX = r"(?:GEN-\d{4}|GENSET-\d{4})"
 
 
 # ---------- Input Schema ----------
@@ -26,12 +31,17 @@ class HydrogenGeneratorCreateSchema(BaseModel):
     @field_validator("serial_number")
     @classmethod
     def validate_serial_number(cls, value: str) -> str:
-        """Strip whitespace, uppercase, and enforce non-empty + max length."""
+        """Normalize serial and validate required GEN-0000 format + length."""
         normalized = value.strip().upper()
+        # Step 1: reject empty values.
         if not normalized:
-            raise ValueError("serial_number must not be empty")
+            raise ValueError("O número de série não pode estar vazio.")
+        # Step 2: enforce fixed format required by the project.
+        if not re.fullmatch(SERIAL_NUMBER_REGEX, normalized):
+            raise ValueError("O número de série deve seguir o formato GEN-0000 (ex: GEN-0001).")
+        # Step 3: keep compatibility with DB column size.
         if len(normalized) > 50:
-            raise ValueError("serial_number must be at most 50 characters")
+            raise ValueError("O número de série deve ter no máximo 50 caracteres.")
         return normalized
 
 
@@ -39,17 +49,22 @@ class HydrogenGeneratorCreateSchema(BaseModel):
 # Validates the query parameter used to fetch or delete a single generator.
 class HydrogenGeneratorSearchSchema(BaseModel):
     # Serial number to look up; stripped and uppercased for consistent DB matching.
-    serial_number: str = Field(default="GENSET-0001")
+    serial_number: str = Field(default="GEN-0001")
 
     @field_validator("serial_number")
     @classmethod
     def validate_search_serial_number(cls, value: str) -> str:
-        """Normalize and enforce non-empty + max length."""
+        """Normalize serial and validate accepted lookup formats + length."""
         normalized = value.strip().upper()
+        # Step 1: reject empty values.
         if not normalized:
-            raise ValueError("serial_number must not be empty")
+            raise ValueError("O número de série não pode estar vazio.")
+        # Step 2: accept current and legacy serial formats for searches/deletes.
+        if not re.fullmatch(SERIAL_LOOKUP_REGEX, normalized):
+            raise ValueError("O número de série deve seguir o formato GEN-0000 (ex: GEN-0001).")
+        # Step 3: keep compatibility with DB column size.
         if len(normalized) > 50:
-            raise ValueError("serial_number must be at most 50 characters")
+            raise ValueError("O número de série deve ter no máximo 50 caracteres.")
         return normalized
 
 

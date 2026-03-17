@@ -1,7 +1,11 @@
 from datetime import datetime
 from typing import Any, List
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
+
+
+# Domain limits used by both backend and frontend validations.
+MAX_GENERATOR_QTD = 10_000
 
 
 # ---------- Input Schema ----------
@@ -12,10 +16,40 @@ class CustomerGeneratorAssetSchema(BaseModel):
     customer_id: int = Field(gt=0)
     # Must reference an existing generator PK (positive integer).
     generator_id: int = Field(gt=0)
-    # Number of generator units assigned; between 1 and 10000.
-    generator_qtd: int = Field(gt=0, le=10000)
+    # Number of generator units assigned; between 1 and MAX_GENERATOR_QTD.
+    generator_qtd: int = Field(gt=0, le=MAX_GENERATOR_QTD)
     # Optional installation date; must be ISO 8601 format (YYYY-MM-DD).
     installation_date: datetime | None = None
+
+    @field_validator("customer_id")
+    @classmethod
+    def validate_customer_id(cls, value: int) -> int:
+        """Ensure customer_id is a positive integer."""
+        # customer_id must reference an existing PK (> 0).
+        if value <= 0:
+            raise ValueError("O ID do cliente deve ser maior que zero.")
+        return value
+
+    @field_validator("generator_id")
+    @classmethod
+    def validate_generator_id(cls, value: int) -> int:
+        """Ensure generator_id is a positive integer."""
+        # generator_id must reference an existing PK (> 0).
+        if value <= 0:
+            raise ValueError("O ID do gerador deve ser maior que zero.")
+        return value
+
+    @field_validator("generator_qtd")
+    @classmethod
+    def validate_generator_qtd(cls, value: int) -> int:
+        """Ensure generator_qtd stays within accepted project limits."""
+        # Step 1: quantity must be greater than zero.
+        if value <= 0:
+            raise ValueError("A quantidade de geradores deve ser maior que zero.")
+        # Step 2: quantity must not exceed MAX_GENERATOR_QTD.
+        if value > MAX_GENERATOR_QTD:
+            raise ValueError("A quantidade de geradores não pode exceder 10.000.")
+        return value
 
 
 # ---------- Query Schema ----------

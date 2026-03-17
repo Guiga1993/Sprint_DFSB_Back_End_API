@@ -31,7 +31,7 @@ class CustomerGeneratorAsset(Base):
         generator_qtd: int,
         installation_date: datetime | None = None,
     ):
-        """Create a new link between a Customer and a HydrogenGenerator.
+        """Create a new link between a customer and a hydrogen generator.
 
         Args:
             customer_id: ID of the linked customer.
@@ -39,9 +39,11 @@ class CustomerGeneratorAsset(Base):
             generator_qtd: number of generator units in this link.
             installation_date: date the generator(s) were installed.
         """
+        # Step 1: assign foreign keys and quantity.
         self.customer_id = customer_id
         self.generator_id = generator_id
         self.generator_qtd = generator_qtd
 
+        # Step 2: if provided, override ORM default installation timestamp.
         if installation_date:
             self.installation_date = installation_date
