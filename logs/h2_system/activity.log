@@ -1408,3 +1408,26 @@
 [2026-03-17 20:25:38] INFO    [_internal.py:97] -  * Restarting with stat
 [2026-03-17 20:25:38] WARNING [_internal.py:97] -  * Debugger is active!
 [2026-03-17 20:25:38] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-18 16:18:18] INFO    [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-03-18 16:18:18] INFO    [_internal.py:97] - [33mPress CTRL+C to quit[0m
+[2026-03-18 16:18:18] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-18 16:18:18] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-18 16:18:18] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-18 16:20:46] INFO    [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-03-18 16:20:46] INFO    [_internal.py:97] - [33mPress CTRL+C to quit[0m
+[2026-03-18 16:20:46] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-18 16:20:47] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-18 16:20:47] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-18 16:20:51] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 16:20:51] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-18 16:20:51] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 16:20:51] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-03-18 16:20:51] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 16:20:51] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-18 16:20:51] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 16:20:51] "[36mGET /openapi/redoc/images/redoc.svg HTTP/1.1[0m" 304 -
+[2026-03-18 16:20:51] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 16:20:51] "[36mGET /openapi/rapidoc/images/rapidoc.svg HTTP/1.1[0m" 304 -
+[2026-03-18 16:20:51] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 16:20:51] "[36mGET /openapi/swagger/images/swagger.svg HTTP/1.1[0m" 304 -
+[2026-03-18 16:20:55] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 16:20:55] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-18 16:20:55] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 16:20:55] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-18 16:20:55] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 16:20:55] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-18 16:20:55] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 16:20:55] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-18 16:20:56] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 16:20:56] "GET /openapi/openapi.json HTTP/1.1" 200 -
