@@ -1300,3 +1300,111 @@
 [2026-03-16 22:27:46] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:27:46] "GET /hydrogen-generators HTTP/1.1" 200 -
 [2026-03-16 22:27:47] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:27:47] "GET /hydrogen-generators HTTP/1.1" 200 -
 [2026-03-16 22:27:47] INFO    [_internal.py:97] - 127.0.0.1 - - [16/Mar/2026 22:27:47] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-17 16:48:36] INFO    [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-03-17 16:48:36] INFO    [_internal.py:97] - [33mPress CTRL+C to quit[0m
+[2026-03-17 16:48:36] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-17 16:48:37] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-17 16:48:37] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-17 16:48:53] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:48:53] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-17 16:48:53] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:48:53] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-03-17 16:48:53] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:48:53] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-17 16:48:53] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:48:53] "[36mGET /openapi/swagger/images/swagger.svg HTTP/1.1[0m" 304 -
+[2026-03-17 16:48:53] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:48:53] "[36mGET /openapi/redoc/images/redoc.svg HTTP/1.1[0m" 304 -
+[2026-03-17 16:48:53] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:48:53] "[36mGET /openapi/rapidoc/images/rapidoc.svg HTTP/1.1[0m" 304 -
+[2026-03-17 16:49:00] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:49:00] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-17 16:49:00] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:49:00] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-17 16:49:00] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:49:00] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-17 16:49:00] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:49:00] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-17 16:49:00] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:49:00] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-17 16:49:13] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:49:13] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-17 16:49:13] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:49:13] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-03-17 16:49:13] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:49:13] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-17 16:49:13] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:49:13] "[36mGET /openapi/rapidoc/images/rapidoc.svg HTTP/1.1[0m" 304 -
+[2026-03-17 16:49:13] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:49:13] "[36mGET /openapi/redoc/images/redoc.svg HTTP/1.1[0m" 304 -
+[2026-03-17 16:49:13] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:49:13] "[36mGET /openapi/swagger/images/swagger.svg HTTP/1.1[0m" 304 -
+[2026-03-17 16:49:15] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:49:15] "GET /openapi/redoc HTTP/1.1" 200 -
+[2026-03-17 16:49:15] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:49:15] "[36mGET /openapi/redoc/js/redoc.standalone.js HTTP/1.1[0m" 304 -
+[2026-03-17 16:49:16] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:49:16] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-17 16:49:46] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:49:46] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-17 16:49:46] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:49:46] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-03-17 16:49:46] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:49:46] "GET /openapi/ HTTP/1.1" 200 -
+[2026-03-17 16:49:46] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:49:46] "[36mGET /openapi/rapidoc/images/rapidoc.svg HTTP/1.1[0m" 304 -
+[2026-03-17 16:49:46] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:49:46] "[36mGET /openapi/redoc/images/redoc.svg HTTP/1.1[0m" 304 -
+[2026-03-17 16:49:46] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 16:49:46] "[36mGET /openapi/swagger/images/swagger.svg HTTP/1.1[0m" 304 -
+[2026-03-17 19:36:32] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 19:36:32] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-17 19:36:32] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 19:36:32] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-17 19:36:32] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 19:36:32] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-17 19:36:32] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 19:36:32] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-17 19:36:33] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 19:36:33] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-17 19:42:27] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 19:42:27] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 19:42:27] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 19:42:27] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-17 19:42:27] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 19:42:27] "GET /assets HTTP/1.1" 200 -
+[2026-03-17 20:11:04] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:11:04] "POST /customer HTTP/1.1" 200 -
+[2026-03-17 20:11:04] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:11:04] "GET /customer?customer_id=4 HTTP/1.1" 200 -
+[2026-03-17 20:11:16] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:11:16] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:11:22] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:11:22] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:11:22] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:11:22] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-17 20:11:22] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:11:22] "GET /assets HTTP/1.1" 200 -
+[2026-03-17 20:11:23] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:11:23] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:11:23] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:11:23] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-17 20:11:23] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:11:23] "GET /assets HTTP/1.1" 200 -
+[2026-03-17 20:11:23] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:11:23] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:11:23] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:11:23] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-17 20:11:23] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:11:23] "GET /assets HTTP/1.1" 200 -
+[2026-03-17 20:11:24] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:11:24] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:11:24] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:11:24] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-17 20:11:24] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:11:24] "GET /assets HTTP/1.1" 200 -
+[2026-03-17 20:11:34] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:11:34] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:12:03] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:12:03] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:12:03] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:12:03] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-17 20:12:03] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:12:03] "GET /assets HTTP/1.1" 200 -
+[2026-03-17 20:12:07] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:12:07] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:12:07] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:12:07] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:12:08] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:12:08] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:12:08] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:12:08] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:12:12] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:12:12] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:14:35] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:14:35] "OPTIONS /customer?customer_id=1 HTTP/1.1" 200 -
+[2026-03-17 20:14:35] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:14:35] "DELETE /customer?customer_id=1 HTTP/1.1" 200 -
+[2026-03-17 20:18:41] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-17 20:18:41] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-17 20:18:43] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-17 20:18:43] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-17 20:18:45] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:18:45] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:18:45] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:18:45] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-17 20:18:45] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:18:45] "GET /assets HTTP/1.1" 200 -
+[2026-03-17 20:18:49] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:18:49] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:18:51] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:18:51] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:18:51] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:18:51] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:18:51] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:18:51] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:20:09] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:20:09] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-17 20:20:10] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:20:10] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-17 20:20:10] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:20:10] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-17 20:20:10] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:20:10] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-17 20:20:17] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:20:17] "GET /assets HTTP/1.1" 200 -
+[2026-03-17 20:20:17] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:20:17] "GET /assets HTTP/1.1" 200 -
+[2026-03-17 20:20:17] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:20:17] "GET /assets HTTP/1.1" 200 -
+[2026-03-17 20:20:30] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-03-17 20:20:30] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-17 20:20:31] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-17 20:20:31] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-03-17 20:20:57] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:20:57] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:20:57] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:20:57] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:22:13] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:22:13] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:22:14] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:22:14] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:22:14] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:22:14] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-17 20:22:14] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:22:14] "GET /assets HTTP/1.1" 200 -
+[2026-03-17 20:22:15] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:22:15] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:22:16] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:22:16] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:22:17] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:22:17] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:22:17] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:22:17] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:22:18] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:22:18] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:22:20] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:22:20] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:22:21] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:22:21] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:22:21] INFO    [_internal.py:97] - 127.0.0.1 - - [17/Mar/2026 20:22:21] "GET /customers HTTP/1.1" 200 -
+[2026-03-17 20:25:38] INFO    [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-03-17 20:25:38] INFO    [_internal.py:97] - [33mPress CTRL+C to quit[0m
+[2026-03-17 20:25:38] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-17 20:25:38] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-17 20:25:38] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
