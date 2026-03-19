@@ -116,16 +116,13 @@ On startup, the system automatically:
 ## Running the API
 
 Start the application:
-Execute the python command below:
 
 ```bash
 python app.py
 ```
 
 Default address:
-- `http://127.0.0.1:5000` - This address will lead to the openapi documentation. To open the front-end you 
-will have to clone the repo - https://github.com/Guiga1993/Sprint_DFSB_Front_End.git and exceute 
-the index.html file.
+- `http://127.0.0.1:5000`
 
 
 ## API Documentation
