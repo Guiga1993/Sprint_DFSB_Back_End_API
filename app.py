@@ -12,7 +12,7 @@ from urllib.parse import unquote
 
 # ── Third-party imports ──────────────────────────────────────────────────────
 from flask import redirect
-from flask_cors import CORS
+from flask_cors import CORS #allows cross-origin requests from the frontend to the back-end
 from flask_openapi3 import OpenAPI, Info, Tag  # type: ignore[attr-defined]
 from sqlalchemy.exc import IntegrityError
 

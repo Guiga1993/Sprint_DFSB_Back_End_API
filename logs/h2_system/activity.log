@@ -1810,3 +1810,121 @@
 [2026-03-18 20:03:59] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:03:59] "GET /customers HTTP/1.1" 200 -
 [2026-03-18 20:04:01] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:04:01] "GET /customers HTTP/1.1" 200 -
 [2026-03-18 20:04:01] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:04:01] "GET /customers HTTP/1.1" 200 -
+[2026-03-18 20:26:08] INFO    [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-03-18 20:26:08] INFO    [_internal.py:97] - [33mPress CTRL+C to quit[0m
+[2026-03-18 20:26:08] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-18 20:26:09] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-18 20:26:09] INFO    [_internal.py:97] -  * Debugger PIN: 311-970-409
+[2026-03-18 20:26:13] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:26:13] "GET /customers HTTP/1.1" 200 -
+[2026-03-18 20:26:13] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:26:13] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-18 20:26:13] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:26:13] "GET /assets HTTP/1.1" 200 -
+[2026-03-18 20:26:13] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:26:13] "GET /customers HTTP/1.1" 200 -
+[2026-03-18 20:26:13] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:26:13] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-18 20:26:13] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:26:13] "GET /assets HTTP/1.1" 200 -
+[2026-03-18 20:26:15] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:26:15] "POST /customer HTTP/1.1" 200 -
+[2026-03-18 20:26:15] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:26:15] "GET /customer?customer_id=1 HTTP/1.1" 200 -
+[2026-03-18 20:26:17] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:26:17] "GET /customers HTTP/1.1" 200 -
+[2026-03-18 20:26:18] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:26:18] "GET /customers HTTP/1.1" 200 -
+[2026-03-18 20:26:18] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:26:18] "GET /customers HTTP/1.1" 200 -
+[2026-03-18 20:26:18] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:26:18] "GET /customers HTTP/1.1" 200 -
+[2026-03-18 20:26:21] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:26:21] "GET /customers HTTP/1.1" 200 -
+[2026-03-18 20:27:28] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:27:28] "GET /customers HTTP/1.1" 200 -
+[2026-03-18 20:27:28] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:27:28] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-18 20:27:28] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:27:28] "GET /assets HTTP/1.1" 200 -
+[2026-03-18 20:27:29] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:27:29] "GET /customers HTTP/1.1" 200 -
+[2026-03-18 20:27:29] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:27:29] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-18 20:27:29] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:27:29] "GET /assets HTTP/1.1" 200 -
+[2026-03-18 20:27:30] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:27:30] "GET /customers HTTP/1.1" 200 -
+[2026-03-18 20:27:31] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:27:31] "GET /customers HTTP/1.1" 200 -
+[2026-03-18 20:27:31] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:27:31] "GET /customers HTTP/1.1" 200 -
+[2026-03-18 20:27:31] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:27:31] "GET /customers HTTP/1.1" 200 -
+[2026-03-18 20:27:32] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:27:32] "GET /customers HTTP/1.1" 200 -
+[2026-03-18 20:27:35] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:27:35] "GET /customers HTTP/1.1" 200 -
+[2026-03-18 20:27:53] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:27:53] "POST /customer HTTP/1.1" 200 -
+[2026-03-18 20:27:53] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:27:53] "GET /customer?customer_id=2 HTTP/1.1" 200 -
+[2026-03-18 20:28:00] WARNING [app.py:395] - Error fetching hydrogen generator 'GEN-6000': Hydrogen generator not found in the database.
+[2026-03-18 20:28:00] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:28:00] "[33mGET /hydrogen-generator?serial_number=GEN-6000 HTTP/1.1[0m" 404 -
+[2026-03-18 20:28:06] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:28:06] "GET /customers HTTP/1.1" 200 -
+[2026-03-18 20:28:08] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:28:08] "GET /customer?customer_id=1 HTTP/1.1" 200 -
+[2026-03-18 20:28:23] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:28:23] "POST /hydrogen-generator HTTP/1.1" 200 -
+[2026-03-18 20:28:23] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:28:23] "GET /hydrogen-generator?serial_number=GEN-5252 HTTP/1.1" 200 -
+[2026-03-18 20:28:28] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:28:28] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-18 20:28:28] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:28:28] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-18 20:28:28] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:28:28] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-18 20:28:30] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:28:30] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-03-18 20:28:34] WARNING [app.py:395] - Error fetching hydrogen generator 'GEN-6000': Hydrogen generator not found in the database.
+[2026-03-18 20:28:34] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:28:34] "[33mGET /hydrogen-generator?serial_number=GEN-6000 HTTP/1.1[0m" 404 -
+[2026-03-18 20:28:40] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:28:40] "GET /hydrogen-generator?serial_number=GEN-5252 HTTP/1.1" 200 -
+[2026-03-18 20:28:41] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:28:41] "GET /hydrogen-generator?serial_number=GEN-5252 HTTP/1.1" 200 -
+[2026-03-18 20:28:46] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:28:46] "POST /asset HTTP/1.1" 200 -
+[2026-03-18 20:28:46] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:28:46] "GET /asset?asset_id=1 HTTP/1.1" 200 -
+[2026-03-18 20:28:52] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:28:52] "GET /assets HTTP/1.1" 200 -
+[2026-03-18 20:28:56] WARNING [app.py:581] - Error fetching asset '2': Asset not found in the database.
+[2026-03-18 20:28:56] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:28:56] "[33mGET /asset?asset_id=2 HTTP/1.1[0m" 404 -
+[2026-03-18 20:29:00] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:29:00] "GET /asset?asset_id=1 HTTP/1.1" 200 -
+[2026-03-18 20:30:59] INFO    [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-03-18 20:30:59] INFO    [_internal.py:97] - [33mPress CTRL+C to quit[0m
+[2026-03-18 20:30:59] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-03-18 20:30:59] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-03-18 20:30:59] INFO    [_internal.py:97] -  * Debugger PIN: 311-970-409
+[2026-03-18 20:31:03] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:31:03] "POST /customer HTTP/1.1" 200 -
+[2026-03-18 20:31:03] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:31:03] "GET /customer?customer_id=3 HTTP/1.1" 200 -
+[2026-03-18 20:31:06] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:31:06] "GET /customers HTTP/1.1" 200 -
+[2026-03-18 20:31:09] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:31:09] "GET /customers HTTP/1.1" 200 -
+[2026-03-18 20:31:09] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:31:09] "GET /customers HTTP/1.1" 200 -
+[2026-03-18 20:31:09] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:31:09] "GET /customers HTTP/1.1" 200 -
+[2026-03-18 20:31:10] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:31:10] "GET /customers HTTP/1.1" 200 -
+[2026-03-18 20:31:10] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:31:10] "GET /customers HTTP/1.1" 200 -
+[2026-03-18 20:31:16] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:31:16] "POST /asset HTTP/1.1" 200 -
+[2026-03-18 20:31:16] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:31:16] "GET /asset?asset_id=2 HTTP/1.1" 200 -
+[2026-03-18 20:31:20] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:31:20] "POST /asset HTTP/1.1" 200 -
+[2026-03-18 20:31:20] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:31:20] "GET /asset?asset_id=3 HTTP/1.1" 200 -
+[2026-03-18 20:31:23] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:31:23] "GET /assets HTTP/1.1" 200 -
+[2026-03-18 20:31:34] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:31:34] "GET /asset?asset_id=1 HTTP/1.1" 200 -
+[2026-03-18 20:31:40] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:31:40] "GET /asset?asset_id=2 HTTP/1.1" 200 -
+[2026-03-18 20:31:50] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:31:50] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-03-18 20:31:50] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:31:50] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:31:50] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:31:50] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:31:50] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:31:50] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-03-18 20:31:51] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:31:51] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-03-18 20:32:01] INFO    [_internal.py:97] - 127.0.0.1 - - [18/Mar/2026 20:32:01] "GET /hydrogen-generator?serial_number=GEN-5252 HTTP/1.1" 200 -
+[2026-04-04 21:02:02] INFO    [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-04-04 21:02:02] INFO    [_internal.py:97] - [33mPress CTRL+C to quit[0m
+[2026-04-04 21:02:02] INFO    [_internal.py:97] -  * Restarting with stat
+[2026-04-04 21:02:03] WARNING [_internal.py:97] -  * Debugger is active!
+[2026-04-04 21:02:03] INFO    [_internal.py:97] -  * Debugger PIN: 696-417-809
+[2026-04-04 21:02:11] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:02:11] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-04-04 21:02:11] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:02:11] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-04-04 21:02:11] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:02:11] "GET /openapi/ HTTP/1.1" 200 -
+[2026-04-04 21:02:11] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:02:11] "[36mGET /openapi/redoc/images/redoc.svg HTTP/1.1[0m" 304 -
+[2026-04-04 21:02:11] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:02:11] "[36mGET /openapi/rapidoc/images/rapidoc.svg HTTP/1.1[0m" 304 -
+[2026-04-04 21:02:11] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:02:11] "[36mGET /openapi/swagger/images/swagger.svg HTTP/1.1[0m" 304 -
+[2026-04-04 21:02:14] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:02:14] "GET /openapi/swagger HTTP/1.1" 200 -
+[2026-04-04 21:02:15] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:02:15] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-04-04 21:02:15] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:02:15] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-04-04 21:02:15] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:02:15] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-04-04 21:02:15] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:02:15] "GET /openapi/openapi.json HTTP/1.1" 200 -
+[2026-04-04 21:02:29] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:02:29] "[32mGET /openapi HTTP/1.1[0m" 308 -
+[2026-04-04 21:02:29] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:02:29] "GET /openapi/ HTTP/1.1" 200 -
+[2026-04-04 21:02:29] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:02:29] "[36mGET /openapi/rapidoc/images/rapidoc.svg HTTP/1.1[0m" 304 -
+[2026-04-04 21:02:29] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:02:29] "[36mGET /openapi/redoc/images/redoc.svg HTTP/1.1[0m" 304 -
+[2026-04-04 21:02:29] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:02:29] "[36mGET /openapi/swagger/images/swagger.svg HTTP/1.1[0m" 304 -
+[2026-04-04 21:07:28] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:07:28] "GET /customers HTTP/1.1" 200 -
+[2026-04-04 21:07:28] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:07:28] "GET /hydrogen-generators HTTP/1.1" 200 -
+[2026-04-04 21:07:28] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:07:28] "GET /assets HTTP/1.1" 200 -
+[2026-04-04 21:07:34] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:07:34] "GET /customers HTTP/1.1" 200 -
+[2026-04-04 21:07:52] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:07:52] "POST /customer HTTP/1.1" 200 -
+[2026-04-04 21:07:52] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:07:52] "GET /customer?customer_id=4 HTTP/1.1" 200 -
+[2026-04-04 21:08:34] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:08:34] "POST /hydrogen-generator HTTP/1.1" 200 -
+[2026-04-04 21:08:34] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:08:34] "GET /hydrogen-generator?serial_number=GEN-3232 HTTP/1.1" 200 -
+[2026-04-04 21:08:48] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:08:48] "GET /hydrogen-generator?serial_number=GEN-5252 HTTP/1.1" 200 -
+[2026-04-04 21:08:56] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:08:56] "GET /customer?customer_id=2 HTTP/1.1" 200 -
+[2026-04-04 21:09:00] WARNING [app.py:236] - Error fetching customer '20': Cliente não encontrado no banco de dados.
+[2026-04-04 21:09:00] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:09:00] "[33mGET /customer?customer_id=20 HTTP/1.1[0m" 404 -
+[2026-04-04 21:09:20] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:09:20] "POST /asset HTTP/1.1" 200 -
+[2026-04-04 21:09:20] INFO    [_internal.py:97] - 127.0.0.1 - - [04/Apr/2026 21:09:20] "GET /asset?asset_id=4 HTTP/1.1" 200 -
+[2026-04-04 21:31:56] INFO    [_internal.py:97] -  * Detected change in 'C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\Study\\Pos_Graduacao_Puc_Rio_Digital\\Sprint_DFSB_Back_End_API\\app.py', reloading
+[2026-04-04 21:31:56] INFO    [_internal.py:97] -  * Restarting with stat
