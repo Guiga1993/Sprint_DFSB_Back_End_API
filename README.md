@@ -4,7 +4,6 @@ Below is a mapping of each backend API route to its usage in the frontend UI:
 
 ### Customers
 
-|                                        |                                    		           |
 |            Route Usage                 |						Frontend					   |
 |----------------------------------------|-----------------------------------------------------|
 | POST   /customer                       | “Cadastrar Cliente” button (customer form)          |
@@ -132,13 +131,6 @@ After starting the server, open in your browser:
 - Swagger UI: `http://127.0.0.1:5000/openapi`
 
 The root path `/` redirects to the OpenAPI docs.
-
-## Frontend Usage Notes
-
-- The frontend tables (customers, generators, assets) are empty by default when the page loads.
-- Data is only shown after the user clicks the **Listar Todos** (List All) button or performs a search (e.g., by ID or serial number).
-- After adding a new record, the table is not updated automatically; use **Listar Todos** or search to view the new entry.
-- Each section also has a **Limpar Tabela** (Clear Table) button, which clears the table in the HTML only (no data is deleted from the database).
 
 
 ## Route Reference
