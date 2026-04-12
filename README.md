@@ -4,8 +4,8 @@ Below is a mapping of each backend API route to its usage in the frontend UI:
 
 ### Customers
 
-|           Route                        |                  Frontend                  
-|            Usage                       |
+|           Route                        |                  Frontend                  		   |
+|            Usage                       |													   |
 |----------------------------------------|-----------------------------------------------------|
 | POST   /customer                       | “Cadastrar Cliente” button (customer form)          |
 | GET    /customers                      | “Listar Todos” button (customer section)            |
